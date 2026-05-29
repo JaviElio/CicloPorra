@@ -24,17 +24,14 @@ export function getPuntosPosicionGeneral(posicion: number | null, config: Config
 export function computeCiclistaPuntos(ciclista: Ciclista, config: Config): number {
   const logros = ciclista.logros;
   const p = config.puntuacion;
-  const tourFinalizado = config.etapa_actual >= config.total_etapas;
 
   const calculado =
     getPuntosVictoriasEtapa(logros, config) +
-    (tourFinalizado
-      ? getPuntosPosicionGeneral(logros.posicion_general, config) +
-        (logros.maillot_verde ? p.maillot_verde : 0) +
-        (logros.maillot_polka ? p.maillot_montana : 0) +
-        (logros.maillot_blanco ? p.maillot_joven : 0) +
-        (logros.farolillo_rojo ? p.farolillo_rojo : 0)
-      : 0);
+    getPuntosPosicionGeneral(logros.posicion_general, config) +
+    (logros.maillot_verde ? p.maillot_verde : 0) +
+    (logros.maillot_polka ? p.maillot_montana : 0) +
+    (logros.maillot_blanco ? p.maillot_joven : 0) +
+    (logros.farolillo_rojo ? p.farolillo_rojo : 0);
 
   return Number.isFinite(calculado) ? calculado : ciclista.puntos;
 }
