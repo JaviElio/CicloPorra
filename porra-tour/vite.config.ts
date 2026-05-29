@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
-const base = process.env.VITE_BASE_URL ?? '/';
+const base = process.env.VITE_BASE_URL ?? '/CicloPorra/';
 
 export default defineConfig({
   base,

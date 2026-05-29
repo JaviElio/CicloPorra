@@ -1,39 +1,27 @@
-name: Deploy Porra Tour to GitHub Pages
+name: Deploy to GitHub Pages
 
 on:
   push:
     branches: [main]
 
-permissions:
-  contents: read
-
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v3
 
-      - name: Setup Node
-        uses: actions/setup-node@v4
+      - uses: actions/setup-node@v3
         with:
-          node-version: 22
+          node-version: '18'
 
       - name: Install dependencies
-        working-directory: porra-tour
-        run: npm install
+        run: cd porra-tour && npm install
 
       - name: Build
-        working-directory: porra-tour
-        env:
-          VITE_BASE_URL: /${{ github.event.repository.name }}/
-        run: npm run build
+        run: cd porra-tour && npm run build
 
-      - name: Deploy to gh-pages
-        uses: peaceiris/actions-gh-pages@v4
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: porra-tour/dist
-          publish_branch: gh-pages
-          force_orphan: true
-
+          publish_dir: ./porra-tour/dist
