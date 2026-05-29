@@ -9,15 +9,16 @@
       "twitter": "https://twitter.com/tadejpogacar",
       "instagram": "https://instagram.com/tadejpogacar"
     },
-    "puntos": 45,
+    "puntos": 20,
     "logros": {
       "victorias_etapa": 3,
       "etapa_reina": true,
-      "clasificacion_general": true,
       "maillot_amarillo": true,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -31,11 +32,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -49,11 +51,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -67,11 +70,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -85,11 +89,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -103,11 +108,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -121,11 +127,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -139,11 +146,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -157,11 +165,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -175,11 +184,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -193,11 +203,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -207,15 +218,16 @@
     "nacionalidad": "Bélgica",
     "participante_id": "ruben",
     "redes_sociales": {},
-    "puntos": 32,
+    "puntos": 10,
     "logros": {
       "victorias_etapa": 2,
       "etapa_reina": false,
-      "clasificacion_general": true,
       "maillot_amarillo": false,
       "maillot_verde": true,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -229,11 +241,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -247,11 +260,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -265,11 +279,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -283,11 +298,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -301,11 +317,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -319,11 +336,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -337,11 +355,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -355,11 +374,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -373,11 +393,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -391,11 +412,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -405,15 +427,16 @@
     "nacionalidad": "Bélgica",
     "participante_id": "begona",
     "redes_sociales": {},
-    "puntos": 28,
+    "puntos": 10,
     "logros": {
       "victorias_etapa": 1,
       "etapa_reina": true,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": true,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -427,11 +450,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -445,11 +469,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -463,11 +488,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -481,11 +507,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -499,11 +526,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -517,11 +545,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -535,11 +564,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -553,11 +583,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -571,11 +602,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -589,11 +621,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -607,11 +640,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -625,11 +659,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -643,11 +678,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -661,11 +697,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -679,11 +716,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -697,11 +735,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -715,11 +754,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -733,11 +773,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -751,11 +792,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -765,15 +807,16 @@
     "nacionalidad": "Polonia",
     "participante_id": "chillida",
     "redes_sociales": {},
-    "puntos": 21,
+    "puntos": 0,
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": true,
       "maillot_polka": false,
-      "maillot_blanco": true
+      "maillot_blanco": true,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -787,11 +830,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -805,11 +849,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -823,11 +868,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -841,11 +887,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -859,11 +906,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -877,11 +925,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -895,11 +944,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -913,11 +963,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -931,11 +982,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -949,11 +1001,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -967,11 +1020,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -985,11 +1039,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -1003,11 +1058,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -1021,11 +1077,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -1039,11 +1096,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -1057,11 +1115,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -1075,11 +1134,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -1093,11 +1153,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -1111,11 +1172,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -1129,11 +1191,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -1147,11 +1210,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -1165,11 +1229,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -1183,11 +1248,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -1201,11 +1267,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -1219,11 +1286,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -1237,11 +1305,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -1255,11 +1324,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -1273,11 +1343,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -1291,11 +1362,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -1309,11 +1381,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -1327,11 +1400,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -1345,11 +1419,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -1363,11 +1438,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -1381,11 +1457,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -1399,11 +1476,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -1417,11 +1495,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -1435,11 +1514,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -1453,11 +1533,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -1471,11 +1552,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -1489,11 +1571,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -1507,11 +1590,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -1525,11 +1609,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -1543,11 +1628,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -1561,11 +1647,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -1579,11 +1666,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -1597,11 +1685,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -1615,11 +1704,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -1633,11 +1723,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -1651,11 +1742,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -1669,11 +1761,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -1687,11 +1780,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -1705,11 +1799,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -1723,11 +1818,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -1741,11 +1837,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -1759,11 +1856,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -1777,11 +1875,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -1795,11 +1894,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -1813,11 +1913,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -1831,11 +1932,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -1849,11 +1951,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -1867,11 +1970,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -1885,11 +1989,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -1903,11 +2008,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -1921,11 +2027,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -1939,11 +2046,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -1957,11 +2065,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -1975,11 +2084,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -1993,11 +2103,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -2011,11 +2122,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -2029,11 +2141,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -2047,11 +2160,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -2065,11 +2179,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -2083,11 +2198,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -2101,11 +2217,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -2119,11 +2236,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -2137,11 +2255,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -2155,11 +2274,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -2173,11 +2293,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -2191,11 +2312,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -2209,11 +2331,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -2227,11 +2350,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -2245,11 +2369,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -2263,11 +2388,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -2281,11 +2407,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -2299,11 +2426,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -2317,11 +2445,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -2335,11 +2464,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -2353,11 +2483,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -2371,11 +2502,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -2389,11 +2521,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -2407,11 +2540,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -2425,11 +2559,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -2443,11 +2578,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -2461,11 +2597,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -2479,11 +2616,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -2497,11 +2635,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -2515,11 +2654,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -2533,11 +2673,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -2551,11 +2692,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -2569,11 +2711,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -2587,11 +2730,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -2605,11 +2749,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -2623,11 +2768,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -2641,11 +2787,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -2659,11 +2806,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -2677,11 +2825,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -2695,11 +2844,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -2713,11 +2863,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -2731,11 +2882,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -2749,11 +2901,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -2767,11 +2920,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -2785,11 +2939,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -2803,11 +2958,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -2821,11 +2977,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -2839,11 +2996,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -2857,11 +3015,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -2875,11 +3034,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -2893,11 +3053,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -2911,11 +3072,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -2929,11 +3091,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -2947,11 +3110,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -2965,11 +3129,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -2983,11 +3148,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -3001,11 +3167,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -3019,11 +3186,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -3037,11 +3205,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -3055,11 +3224,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -3073,11 +3243,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -3091,11 +3262,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -3109,11 +3281,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -3127,11 +3300,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -3145,11 +3319,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -3163,11 +3338,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -3181,11 +3357,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -3199,11 +3376,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -3217,11 +3395,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -3235,11 +3414,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -3253,11 +3433,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -3271,11 +3452,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -3289,11 +3471,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   },
   {
@@ -3307,11 +3490,12 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "clasificacion_general": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": false,
+      "posicion_general": null,
+      "farolillo_rojo": false
     }
   }
 ]

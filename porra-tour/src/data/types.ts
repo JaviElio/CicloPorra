@@ -6,7 +6,8 @@ export type RedesSociales = {
 export type Logros = {
   victorias_etapa: number;
   etapa_reina: boolean;
-  clasificacion_general: boolean;
+  posicion_general: number | null;
+  farolillo_rojo: boolean;
   maillot_amarillo: boolean;
   maillot_verde: boolean;
   maillot_polka: boolean;
@@ -39,13 +40,11 @@ export type Config = {
   ultima_actualizacion: string;
   puntuacion: {
     victoria_etapa: number;
-    etapa_reina: number;
-    top3_etapa: number;
-    clasificacion_general: number;
-    maillot_amarillo_dia: number;
-    maillot_verde_dia: number;
-    maillot_polka_dia: number;
-    maillot_blanco_dia: number;
+    victoria_etapa_reina: number;
+    maillot_verde: number;
+    maillot_montana: number;
+    maillot_joven: number;
+    farolillo_rojo: number;
+    clasificacion_general: Record<string, number>;
   };
 };
-

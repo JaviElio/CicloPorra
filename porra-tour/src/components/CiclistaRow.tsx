@@ -7,7 +7,8 @@ export function renderLogrosSummary(logros: Logros) {
   const items: string[] = [];
   if (logros.victorias_etapa > 0) items.push(`Victorias etapas: ${logros.victorias_etapa}`);
   if (logros.etapa_reina) items.push('Etapa reina');
-  if (logros.clasificacion_general) items.push('Clasificación general');
+  if (logros.posicion_general != null) items.push(`CG: ${logros.posicion_general}º`);
+  if (logros.farolillo_rojo) items.push('Farolillo rojo');
   return items;
 }
 

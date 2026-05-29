@@ -117,7 +117,8 @@ export function ParticipantePage() {
                       <div className="muted" style={{ fontSize: 13 }}>
                         {c.logros.victorias_etapa > 0 ? `Victorias (${c.logros.victorias_etapa})` : '—'}
                         {c.logros.etapa_reina ? ' · Etapa reina' : ''}
-                        {c.logros.clasificacion_general ? ' · CG' : ''}
+                        {c.logros.posicion_general != null ? ` · CG ${c.logros.posicion_general}º` : ''}
+                        {c.logros.farolillo_rojo ? ' · Farolillo' : ''}
                       </div>
                     </td>
                   </tr>

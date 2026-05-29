@@ -1,6 +1,7 @@
 import { loadDataModel } from '../data/loader';
 import { computeParticipantePuntos } from '../data/scoring';
 import ClasificacionCard from '../components/ClasificacionCard';
+import TablaPremios from '../components/TablaPremios';
 
 const model = loadDataModel();
 
@@ -38,6 +39,8 @@ export function ClasificacionPage() {
           <ClasificacionCard key={p.id} participante={p} posicion={idx + 1} numCiclistas={p.ciclistas_dorsales.length} />
         ))}
       </div>
+
+      <TablaPremios config={model.config} />
     </section>
   );
 }
