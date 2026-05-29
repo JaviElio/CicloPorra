@@ -17,7 +17,7 @@
       "maillot_verde": false,
       "maillot_polka": false,
       "maillot_blanco": false,
-      "posicion_general": null,
+      "posicion_general": 1,
       "farolillo_rojo": false
     }
   },
@@ -55,7 +55,7 @@
       "maillot_verde": false,
       "maillot_polka": false,
       "maillot_blanco": false,
-      "posicion_general": null,
+      "posicion_general": 13,
       "farolillo_rojo": false
     }
   },
@@ -169,7 +169,7 @@
       "maillot_verde": false,
       "maillot_polka": false,
       "maillot_blanco": false,
-      "posicion_general": null,
+      "posicion_general": 2,
       "farolillo_rojo": false
     }
   },
@@ -473,7 +473,7 @@
       "maillot_verde": false,
       "maillot_polka": false,
       "maillot_blanco": false,
-      "posicion_general": null,
+      "posicion_general": 9,
       "farolillo_rojo": false
     }
   },
@@ -948,7 +948,7 @@
       "maillot_verde": false,
       "maillot_polka": false,
       "maillot_blanco": false,
-      "posicion_general": null,
+      "posicion_general": 12,
       "farolillo_rojo": false
     }
   },
@@ -1081,7 +1081,7 @@
       "maillot_verde": false,
       "maillot_polka": false,
       "maillot_blanco": false,
-      "posicion_general": null,
+      "posicion_general": 8,
       "farolillo_rojo": false
     }
   },
@@ -1100,7 +1100,7 @@
       "maillot_verde": false,
       "maillot_polka": false,
       "maillot_blanco": false,
-      "posicion_general": null,
+      "posicion_general": 3,
       "farolillo_rojo": false
     }
   },
@@ -1253,7 +1253,7 @@
       "maillot_polka": false,
       "maillot_blanco": false,
       "posicion_general": null,
-      "farolillo_rojo": false
+      "farolillo_rojo": true
     }
   },
   {
@@ -1841,7 +1841,7 @@
       "maillot_verde": false,
       "maillot_polka": false,
       "maillot_blanco": false,
-      "posicion_general": null,
+      "posicion_general": 11,
       "farolillo_rojo": false
     }
   },
@@ -1993,7 +1993,7 @@
       "maillot_verde": false,
       "maillot_polka": false,
       "maillot_blanco": false,
-      "posicion_general": null,
+      "posicion_general": 7,
       "farolillo_rojo": false
     }
   },
@@ -2297,7 +2297,7 @@
       "maillot_verde": false,
       "maillot_polka": false,
       "maillot_blanco": false,
-      "posicion_general": null,
+      "posicion_general": 5,
       "farolillo_rojo": false
     }
   },
@@ -2848,7 +2848,7 @@
       "maillot_verde": false,
       "maillot_polka": false,
       "maillot_blanco": false,
-      "posicion_general": null,
+      "posicion_general": 10,
       "farolillo_rojo": false
     }
   },
@@ -2905,7 +2905,7 @@
       "maillot_verde": false,
       "maillot_polka": false,
       "maillot_blanco": false,
-      "posicion_general": null,
+      "posicion_general": 4,
       "farolillo_rojo": false
     }
   },
@@ -3361,7 +3361,7 @@
       "maillot_verde": false,
       "maillot_polka": false,
       "maillot_blanco": false,
-      "posicion_general": null,
+      "posicion_general": 6,
       "farolillo_rojo": false
     }
   },
