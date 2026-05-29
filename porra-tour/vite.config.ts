@@ -6,5 +6,8 @@ const base = process.env.VITE_BASE_URL ?? '/';
 export default defineConfig({
   base,
   plugins: [react()],
+    server: {
+    host: '0.0.0.0',
+  },
 });
 
