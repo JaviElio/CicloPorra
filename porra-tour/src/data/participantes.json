@@ -1,0 +1,17 @@
+[
+  {
+    "id": "alice",
+    "nombre": "Alice",
+    "avatar": "🚴",
+    "ciclistas_dorsales": [1, 14],
+    "puntos_total": 0
+  },
+  {
+    "id": "bob",
+    "nombre": "Bob",
+    "avatar": "🏁",
+    "ciclistas_dorsales": [27, 53],
+    "puntos_total": 0
+  }
+]
+

@@ -1,0 +1,17 @@
+{
+  "edicion": 2025,
+  "etapa_actual": 12,
+  "total_etapas": 21,
+  "ultima_actualizacion": "2025-07-15T18:00:00Z",
+  "puntuacion": {
+    "victoria_etapa": 10,
+    "etapa_reina": 15,
+    "top3_etapa": 5,
+    "clasificacion_general": 30,
+    "maillot_amarillo_dia": 2,
+    "maillot_verde_dia": 2,
+    "maillot_polka_dia": 2,
+    "maillot_blanco_dia": 2
+  }
+}
+

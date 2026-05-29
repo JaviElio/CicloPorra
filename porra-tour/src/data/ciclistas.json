@@ -1,0 +1,78 @@
+[
+  {
+    "dorsal": 1,
+    "nombre": "Tadej Pogačar",
+    "equipo": "UAE Team Emirates",
+    "nacionalidad": "Eslovenia",
+    "participante_id": "alice",
+    "redes_sociales": {
+      "twitter": "https://twitter.com/tadejpogacar",
+      "instagram": "https://instagram.com/tadejpogacar"
+    },
+    "puntos": 45,
+    "logros": {
+      "victorias_etapa": 3,
+      "etapa_reina": true,
+      "clasificacion_general": true,
+      "maillot_amarillo": true,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 14,
+    "nombre": "Jonas Vingegaard",
+    "equipo": "Visma-Lease a Bike",
+    "nacionalidad": "Dinamarca",
+    "participante_id": "alice",
+    "redes_sociales": {},
+    "puntos": 32,
+    "logros": {
+      "victorias_etapa": 2,
+      "etapa_reina": false,
+      "clasificacion_general": true,
+      "maillot_amarillo": false,
+      "maillot_verde": true,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 27,
+    "nombre": "Primož Roglič",
+    "equipo": "BORA-hansgrohe",
+    "nacionalidad": "Eslovenia",
+    "participante_id": "bob",
+    "redes_sociales": {},
+    "puntos": 28,
+    "logros": {
+      "victorias_etapa": 1,
+      "etapa_reina": true,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": true,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 53,
+    "nombre": "Wout van Aert",
+    "equipo": "Visma-Lease a Bike",
+    "nacionalidad": "Bélgica",
+    "participante_id": "bob",
+    "redes_sociales": {},
+    "puntos": 21,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": true,
+      "maillot_polka": false,
+      "maillot_blanco": true
+    }
+  }
+]
+
