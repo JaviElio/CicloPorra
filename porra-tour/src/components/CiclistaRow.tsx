@@ -48,7 +48,7 @@ export default function CiclistaRow({
         <div style={{ fontWeight: 850 }}>{ciclista.puntos}</div>
       </td>
       <td style={{ padding: '10px 8px', borderBottom: '1px solid rgba(255,255,255,0.10)' }}>
-        {showParticipantLink ? (
+        {showParticipantLink && ciclista.participante_id ? (
           <Link
             to={`/participante/${ciclista.participante_id}`}
             style={{

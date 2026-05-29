@@ -4,7 +4,7 @@
     "nombre": "Tadej Pogačar",
     "equipo": "UAE Team Emirates",
     "nacionalidad": "Eslovenia",
-    "participante_id": "alice",
+    "participante_id": "arza",
     "redes_sociales": {
       "twitter": "https://twitter.com/tadejpogacar",
       "instagram": "https://instagram.com/tadejpogacar"
@@ -21,11 +21,191 @@
     }
   },
   {
-    "dorsal": 14,
+    "dorsal": 2,
+    "nombre": "João Almeida",
+    "equipo": "UAE Team Emirates",
+    "nacionalidad": "Portugal",
+    "participante_id": "chillida",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 3,
+    "nombre": "Jhonatan Narváez",
+    "equipo": "UAE Team Emirates",
+    "nacionalidad": "Ecuador",
+    "participante_id": "jose-angel",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 4,
+    "nombre": "Nils Politt",
+    "equipo": "UAE Team Emirates",
+    "nacionalidad": "Alemania",
+    "participante_id": "ibarrola",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 5,
+    "nombre": "Pavel Sivakov",
+    "equipo": "UAE Team Emirates",
+    "nacionalidad": "Francia",
+    "participante_id": "joaquin",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 6,
+    "nombre": "Marc Soler",
+    "equipo": "UAE Team Emirates",
+    "nacionalidad": "España",
+    "participante_id": "uzkeda",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 7,
+    "nombre": "Tim Wellens",
+    "equipo": "UAE Team Emirates",
+    "nacionalidad": "Bélgica",
+    "participante_id": "uzkeda",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 8,
+    "nombre": "Adam Yates",
+    "equipo": "UAE Team Emirates",
+    "nacionalidad": "Reino Unido",
+    "participante_id": "elio",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 11,
     "nombre": "Jonas Vingegaard",
     "equipo": "Visma-Lease a Bike",
     "nacionalidad": "Dinamarca",
-    "participante_id": "alice",
+    "participante_id": "frodo",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 12,
+    "nombre": "Edoardo Affini",
+    "equipo": "Visma-Lease a Bike",
+    "nacionalidad": "Italia",
+    "participante_id": "boston",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 13,
+    "nombre": "Tiesj Benoot",
+    "equipo": "Visma-Lease a Bike",
+    "nacionalidad": "Bélgica",
+    "participante_id": "elio",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 14,
+    "nombre": "Victor Campenaerts",
+    "equipo": "Visma-Lease a Bike",
+    "nacionalidad": "Bélgica",
+    "participante_id": "ruben",
     "redes_sociales": {},
     "puntos": 32,
     "logros": {
@@ -39,11 +219,191 @@
     }
   },
   {
+    "dorsal": 15,
+    "nombre": "Matteo Jorgenson",
+    "equipo": "Visma-Lease a Bike",
+    "nacionalidad": "Estados Unidos",
+    "participante_id": "jose-angel",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 16,
+    "nombre": "Sepp Kuss",
+    "equipo": "Visma-Lease a Bike",
+    "nacionalidad": "Estados Unidos",
+    "participante_id": "chillida",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 17,
+    "nombre": "Wout van Aert",
+    "equipo": "Visma-Lease a Bike",
+    "nacionalidad": "Bélgica",
+    "participante_id": "vicuna",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 18,
+    "nombre": "Simon Yates",
+    "equipo": "Visma-Lease a Bike",
+    "nacionalidad": "Reino Unido",
+    "participante_id": "nestor",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 21,
+    "nombre": "Remco Evenepoel",
+    "equipo": "Soudal Quick-Step",
+    "nacionalidad": "Bélgica",
+    "participante_id": "palos",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 22,
+    "nombre": "Mattia Cattaneo",
+    "equipo": "Soudal Quick-Step",
+    "nacionalidad": "Italia",
+    "participante_id": "ruben",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 23,
+    "nombre": "Pascal Eenkhoorn",
+    "equipo": "Soudal Quick-Step",
+    "nacionalidad": "Países Bajos",
+    "participante_id": "enrique",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 24,
+    "nombre": "Tim Merlier",
+    "equipo": "Soudal Quick-Step",
+    "nacionalidad": "Bélgica",
+    "participante_id": "joaquin",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 25,
+    "nombre": "Valentin Paret-Peintre",
+    "equipo": "Soudal Quick-Step",
+    "nacionalidad": "Francia",
+    "participante_id": "chillida",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 26,
+    "nombre": "Maximilian Schachmann",
+    "equipo": "Soudal Quick-Step",
+    "nacionalidad": "Alemania",
+    "participante_id": "vicuna",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
     "dorsal": 27,
-    "nombre": "Primož Roglič",
-    "equipo": "BORA-hansgrohe",
-    "nacionalidad": "Eslovenia",
-    "participante_id": "bob",
+    "nombre": "Bert Van Lerberghe",
+    "equipo": "Soudal Quick-Step",
+    "nacionalidad": "Bélgica",
+    "participante_id": "begona",
     "redes_sociales": {},
     "puntos": 28,
     "logros": {
@@ -57,11 +417,353 @@
     }
   },
   {
-    "dorsal": 53,
-    "nombre": "Wout van Aert",
-    "equipo": "Visma-Lease a Bike",
+    "dorsal": 28,
+    "nombre": "Ilan Van Wilder",
+    "equipo": "Soudal Quick-Step",
     "nacionalidad": "Bélgica",
-    "participante_id": "bob",
+    "participante_id": "hector",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 31,
+    "nombre": "Ben Healy",
+    "equipo": "EF Education-EasyPost",
+    "nacionalidad": "Irlanda",
+    "participante_id": "joaquin",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 32,
+    "nombre": "Vincenzo Albanese",
+    "equipo": "EF Education-EasyPost",
+    "nacionalidad": "Italia",
+    "participante_id": "nestor",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 33,
+    "nombre": "Kasper Asgreen",
+    "equipo": "EF Education-EasyPost",
+    "nacionalidad": "Dinamarca",
+    "participante_id": "diego",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 34,
+    "nombre": "Alex Baudin",
+    "equipo": "EF Education-EasyPost",
+    "nacionalidad": "Francia",
+    "participante_id": "joaquin",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 35,
+    "nombre": "Neilson Powless",
+    "equipo": "EF Education-EasyPost",
+    "nacionalidad": "Estados Unidos",
+    "participante_id": "uzkeda",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 36,
+    "nombre": "Harry Sweeny",
+    "equipo": "EF Education-EasyPost",
+    "nacionalidad": "Australia",
+    "participante_id": "ibarrola",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 37,
+    "nombre": "Michael Valgren",
+    "equipo": "EF Education-EasyPost",
+    "nacionalidad": "Dinamarca",
+    "participante_id": "jose-angel",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 38,
+    "nombre": "Marijn van den Berg",
+    "equipo": "EF Education-EasyPost",
+    "nacionalidad": "Países Bajos",
+    "participante_id": "arza",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 41,
+    "nombre": "Biniam Girmay",
+    "equipo": "Intermarché-Wanty",
+    "nacionalidad": "Eritrea",
+    "participante_id": "ibarrola",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 42,
+    "nombre": "Louis Barré",
+    "equipo": "Intermarché-Wanty",
+    "nacionalidad": "Francia",
+    "participante_id": "palos",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 43,
+    "nombre": "Vito Braet",
+    "equipo": "Intermarché-Wanty",
+    "nacionalidad": "Bélgica",
+    "participante_id": "frodo",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 44,
+    "nombre": "Hugo Page",
+    "equipo": "Intermarché-Wanty",
+    "nacionalidad": "Francia",
+    "participante_id": "uzkeda",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 45,
+    "nombre": "Laurenz Rex",
+    "equipo": "Intermarché-Wanty",
+    "nacionalidad": "Bélgica",
+    "participante_id": "boston",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 46,
+    "nombre": "Jonas Rutsch",
+    "equipo": "Intermarché-Wanty",
+    "nacionalidad": "Alemania",
+    "participante_id": "elio",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 47,
+    "nombre": "Roel van Sintmaartensdijk",
+    "equipo": "Intermarché-Wanty",
+    "nacionalidad": "Países Bajos",
+    "participante_id": "ruben",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 48,
+    "nombre": "Georg Zimmermann",
+    "equipo": "Intermarché-Wanty",
+    "nacionalidad": "Alemania",
+    "participante_id": "enrique",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 51,
+    "nombre": "Santiago Buitrago",
+    "equipo": "Bahrain Victorious",
+    "nacionalidad": "Colombia",
+    "participante_id": "vicuna",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 52,
+    "nombre": "Phil Bauhaus",
+    "equipo": "Bahrain Victorious",
+    "nacionalidad": "Alemania",
+    "participante_id": "elio",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 53,
+    "nombre": "Kamil Gradek",
+    "equipo": "Bahrain Victorious",
+    "nacionalidad": "Polonia",
+    "participante_id": "chillida",
     "redes_sociales": {},
     "puntos": 21,
     "logros": {
@@ -73,6 +775,2543 @@
       "maillot_polka": false,
       "maillot_blanco": true
     }
+  },
+  {
+    "dorsal": 54,
+    "nombre": "Jack Haig",
+    "equipo": "Bahrain Victorious",
+    "nacionalidad": "Australia",
+    "participante_id": "vicuna",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 55,
+    "nombre": "Lenny Martinez",
+    "equipo": "Bahrain Victorious",
+    "nacionalidad": "Francia",
+    "participante_id": "hector",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 56,
+    "nombre": "Matej Mohorič",
+    "equipo": "Bahrain Victorious",
+    "nacionalidad": "Eslovenia",
+    "participante_id": "begona",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 57,
+    "nombre": "Robert Stannard",
+    "equipo": "Bahrain Victorious",
+    "nacionalidad": "Australia",
+    "participante_id": "hector",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 58,
+    "nombre": "Fred Wright",
+    "equipo": "Bahrain Victorious",
+    "nacionalidad": "Reino Unido",
+    "participante_id": "nestor",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 61,
+    "nombre": "Geraint Thomas",
+    "equipo": "INEOS Grenadiers",
+    "nacionalidad": "Reino Unido",
+    "participante_id": "diego",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 62,
+    "nombre": "Thymen Arensman",
+    "equipo": "INEOS Grenadiers",
+    "nacionalidad": "Países Bajos",
+    "participante_id": "diego",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 63,
+    "nombre": "Tobias Foss",
+    "equipo": "INEOS Grenadiers",
+    "nacionalidad": "Noruega",
+    "participante_id": "joaquin",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 64,
+    "nombre": "Filippo Ganna",
+    "equipo": "INEOS Grenadiers",
+    "nacionalidad": "Italia",
+    "participante_id": "hector",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 65,
+    "nombre": "Axel Laurance",
+    "equipo": "INEOS Grenadiers",
+    "nacionalidad": "Francia",
+    "participante_id": "ibarrola",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 66,
+    "nombre": "Carlos Rodríguez",
+    "equipo": "INEOS Grenadiers",
+    "nacionalidad": "España",
+    "participante_id": "enrique",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 67,
+    "nombre": "Connor Swift",
+    "equipo": "INEOS Grenadiers",
+    "nacionalidad": "Reino Unido",
+    "participante_id": "jose-angel",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 68,
+    "nombre": "Samuel Watson",
+    "equipo": "INEOS Grenadiers",
+    "nacionalidad": "Reino Unido",
+    "participante_id": "arza",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 71,
+    "nombre": "Primož Roglič",
+    "equipo": "BORA-hansgrohe",
+    "nacionalidad": "Eslovenia",
+    "participante_id": "boston",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 72,
+    "nombre": "Florian Lipowitz",
+    "equipo": "BORA-hansgrohe",
+    "nacionalidad": "Alemania",
+    "participante_id": "diego",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 73,
+    "nombre": "Jordi Meeus",
+    "equipo": "BORA-hansgrohe",
+    "nacionalidad": "Bélgica",
+    "participante_id": "palos",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 74,
+    "nombre": "Gianni Moscon",
+    "equipo": "BORA-hansgrohe",
+    "nacionalidad": "Italia",
+    "participante_id": "enrique",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 75,
+    "nombre": "Laurence Pithie",
+    "equipo": "BORA-hansgrohe",
+    "nacionalidad": "Nueva Zelanda",
+    "participante_id": "frodo",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 76,
+    "nombre": "Mick van Dijke",
+    "equipo": "BORA-hansgrohe",
+    "nacionalidad": "Países Bajos",
+    "participante_id": "uzkeda",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 77,
+    "nombre": "Danny van Poppel",
+    "equipo": "BORA-hansgrohe",
+    "nacionalidad": "Países Bajos",
+    "participante_id": "boston",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 78,
+    "nombre": "Aleksandr Vlasov",
+    "equipo": "29",
+    "nacionalidad": "Red Bull–Bora–Hansgrohe",
+    "participante_id": "elio",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 81,
+    "nombre": "Jonathan Milan",
+    "equipo": "Lidl-Trek",
+    "nacionalidad": "Italia",
+    "participante_id": "ruben",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 82,
+    "nombre": "Simone Consonni",
+    "equipo": "Lidl-Trek",
+    "nacionalidad": "Italia",
+    "participante_id": "ruben",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 83,
+    "nombre": "Thibau Nys",
+    "equipo": "Lidl-Trek",
+    "nacionalidad": "Bélgica",
+    "participante_id": "enrique",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 84,
+    "nombre": "Quinn Simmons",
+    "equipo": "Lidl-Trek",
+    "nacionalidad": "Estados Unidos",
+    "participante_id": "chillida",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 85,
+    "nombre": "Mattias Skjelmose",
+    "equipo": "Lidl-Trek",
+    "nacionalidad": "Dinamarca",
+    "participante_id": "chillida",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 86,
+    "nombre": "Toms Skujiņš",
+    "equipo": "Lidl-Trek",
+    "nacionalidad": "Letonia",
+    "participante_id": "vicuna",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 87,
+    "nombre": "Jasper Stuyven",
+    "equipo": "Lidl-Trek",
+    "nacionalidad": "Bélgica",
+    "participante_id": "begona",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 88,
+    "nombre": "Edward Theuns",
+    "equipo": "Lidl-Trek",
+    "nacionalidad": "Bélgica",
+    "participante_id": "hector",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 91,
+    "nombre": "Guillaume Martin",
+    "equipo": "Groupama-FDJ",
+    "nacionalidad": "Francia",
+    "participante_id": "boston",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 92,
+    "nombre": "Lewis Askey",
+    "equipo": "Groupama-FDJ",
+    "nacionalidad": "Reino Unido",
+    "participante_id": "nestor",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 93,
+    "nombre": "Cyril Barthe",
+    "equipo": "Groupama-FDJ",
+    "nacionalidad": "Francia",
+    "participante_id": "diego",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 94,
+    "nombre": "Romain Grégoire",
+    "equipo": "Groupama-FDJ",
+    "nacionalidad": "Francia",
+    "participante_id": "joaquin",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 95,
+    "nombre": "Valentin Madouas",
+    "equipo": "Groupama-FDJ",
+    "nacionalidad": "Francia",
+    "participante_id": "ibarrola",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 96,
+    "nombre": "Quentin Pacher",
+    "equipo": "Groupama-FDJ",
+    "nacionalidad": "Francia",
+    "participante_id": "ibarrola",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 97,
+    "nombre": "Paul Penhoët",
+    "equipo": "Groupama-FDJ",
+    "nacionalidad": "Francia",
+    "participante_id": "jose-angel",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 98,
+    "nombre": "Clément Russo",
+    "equipo": "Groupama-FDJ",
+    "nacionalidad": "Francia",
+    "participante_id": "arza",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 101,
+    "nombre": "Jasper Philipsen",
+    "equipo": "Alpecin-Deceuninck",
+    "nacionalidad": "Bélgica",
+    "participante_id": "uzkeda",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 102,
+    "nombre": "Silvan Dillier",
+    "equipo": "Alpecin-Deceuninck",
+    "nacionalidad": "Suiza",
+    "participante_id": "palos",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 103,
+    "nombre": "Kaden Groves",
+    "equipo": "Alpecin-Deceuninck",
+    "nacionalidad": "Australia",
+    "participante_id": "palos",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 104,
+    "nombre": "Xandro Meurisse",
+    "equipo": "Alpecin-Deceuninck",
+    "nacionalidad": "Bélgica",
+    "participante_id": "frodo",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 105,
+    "nombre": "Jonas Rickaert",
+    "equipo": "Alpecin-Deceuninck",
+    "nacionalidad": "Bélgica",
+    "participante_id": "uzkeda",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 106,
+    "nombre": "Mathieu van der Poel",
+    "equipo": "Alpecin-Deceuninck",
+    "nacionalidad": "Países Bajos",
+    "participante_id": "begona",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 107,
+    "nombre": "Gianni Vermeersch",
+    "equipo": "Alpecin-Deceuninck",
+    "nacionalidad": "Bélgica",
+    "participante_id": "boston",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 108,
+    "nombre": "Emiel Verstrynge",
+    "equipo": "Alpecin-Deceuninck",
+    "nacionalidad": "Bélgica",
+    "participante_id": "elio",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 111,
+    "nombre": "Julian Alaphilippe",
+    "equipo": "Tudor Pro Cycling Team",
+    "nacionalidad": "Francia",
+    "participante_id": "ruben",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 112,
+    "nombre": "Alberto Dainese",
+    "equipo": "Tudor Pro Cycling Team",
+    "nacionalidad": "Italia",
+    "participante_id": "enrique",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 113,
+    "nombre": "Marco Haller",
+    "equipo": "Tudor Pro Cycling Team",
+    "nacionalidad": "Austria",
+    "participante_id": "chillida",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 114,
+    "nombre": "Marc Hirschi",
+    "equipo": "Tudor Pro Cycling Team",
+    "nacionalidad": "Suiza",
+    "participante_id": "hector",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 115,
+    "nombre": "Fabian Lienhard",
+    "equipo": "Tudor Pro Cycling Team",
+    "nacionalidad": "Suiza",
+    "participante_id": "vicuna",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 116,
+    "nombre": "Marius Mayrhofer",
+    "equipo": "Tudor Pro Cycling Team",
+    "nacionalidad": "Alemania",
+    "participante_id": "begona",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 117,
+    "nombre": "Michael Storer",
+    "equipo": "Tudor Pro Cycling Team",
+    "nacionalidad": "Australia",
+    "participante_id": "hector",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 118,
+    "nombre": "Matteo Trentin",
+    "equipo": "Tudor Pro Cycling Team",
+    "nacionalidad": "Italia",
+    "participante_id": "nestor",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 121,
+    "nombre": "Ben O'Connor",
+    "equipo": "Jayco AlUla",
+    "nacionalidad": "Australia",
+    "participante_id": "ruben",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 122,
+    "nombre": "Eddie Dunbar",
+    "equipo": "Jayco AlUla",
+    "nacionalidad": "Irlanda",
+    "participante_id": "diego",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 123,
+    "nombre": "Luke Durbridge",
+    "equipo": "Jayco AlUla",
+    "nacionalidad": "Australia",
+    "participante_id": "joaquin",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 124,
+    "nombre": "Dylan Groenewegen",
+    "equipo": "Jayco AlUla",
+    "nacionalidad": "Países Bajos",
+    "participante_id": "nestor",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 125,
+    "nombre": "Luka Mezgec",
+    "equipo": "Jayco AlUla",
+    "nacionalidad": "Eslovenia",
+    "participante_id": "ibarrola",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 126,
+    "nombre": "Luke Plapp",
+    "equipo": "Jayco AlUla",
+    "nacionalidad": "Australia",
+    "participante_id": "jose-angel",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 127,
+    "nombre": "Elmar Reinders",
+    "equipo": "Jayco AlUla",
+    "nacionalidad": "Países Bajos",
+    "participante_id": "arza",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 128,
+    "nombre": "Mauro Schmid",
+    "equipo": "Jayco AlUla",
+    "nacionalidad": "Suiza",
+    "participante_id": "palos",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 131,
+    "nombre": "Kévin Vauquelin",
+    "equipo": "Arkéa-B&B Hotels",
+    "nacionalidad": "Francia",
+    "participante_id": "begona",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 132,
+    "nombre": "Amaury Capiot",
+    "equipo": "Arkéa-B&B Hotels",
+    "nacionalidad": "Bélgica",
+    "participante_id": "frodo",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 133,
+    "nombre": "Ewen Costiou",
+    "equipo": "Arkéa-B&B Hotels",
+    "nacionalidad": "Francia",
+    "participante_id": "uzkeda",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 134,
+    "nombre": "Arnaud Démare",
+    "equipo": "Arkéa-B&B Hotels",
+    "nacionalidad": "Francia",
+    "participante_id": "jose-angel",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 135,
+    "nombre": "Raúl García Pierna",
+    "equipo": "Arkéa-B&B Hotels",
+    "nacionalidad": "España",
+    "participante_id": "boston",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 136,
+    "nombre": "Mathis Le Berre",
+    "equipo": "Arkéa-B&B Hotels",
+    "nacionalidad": "Francia",
+    "participante_id": "elio",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 137,
+    "nombre": "Cristián Rodríguez",
+    "equipo": "Arkéa-B&B Hotels",
+    "nacionalidad": "España",
+    "participante_id": "ruben",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 138,
+    "nombre": "Clément Venturini",
+    "equipo": "Arkéa-B&B Hotels",
+    "nacionalidad": "Francia",
+    "participante_id": "enrique",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 141,
+    "nombre": "Enric Mas",
+    "equipo": "Movistar Team",
+    "nacionalidad": "España",
+    "participante_id": "elio",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 142,
+    "nombre": "Will Barta",
+    "equipo": "Movistar Team",
+    "nacionalidad": "Estados Unidos",
+    "participante_id": "chillida",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 143,
+    "nombre": "Pablo Castrillo",
+    "equipo": "Movistar Team",
+    "nacionalidad": "España",
+    "participante_id": "vicuna",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 144,
+    "nombre": "Nelson Oliveira",
+    "equipo": "Movistar Team",
+    "nacionalidad": "Portugal",
+    "participante_id": "vicuna",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 145,
+    "nombre": "Iván García Cortina",
+    "equipo": "Movistar Team",
+    "nacionalidad": "España",
+    "participante_id": "begona",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 146,
+    "nombre": "Gregor Mühlberger",
+    "equipo": "Movistar Team",
+    "nacionalidad": "Austria",
+    "participante_id": "hector",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 147,
+    "nombre": "Iván Romeo",
+    "equipo": "Movistar Team",
+    "nacionalidad": "España",
+    "participante_id": "joaquin",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 148,
+    "nombre": "Einer Rubio",
+    "equipo": "Movistar Team",
+    "nacionalidad": "Colombia",
+    "participante_id": "boston",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 151,
+    "nombre": "Felix Gall",
+    "equipo": "Decathlon AG2R",
+    "nacionalidad": "Austria",
+    "participante_id": "nestor",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 152,
+    "nombre": "Bruno Armirail",
+    "equipo": "Decathlon AG2R",
+    "nacionalidad": "Francia",
+    "participante_id": "jose-angel",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 153,
+    "nombre": "Clément Berthet",
+    "equipo": "Decathlon AG2R",
+    "nacionalidad": "Francia",
+    "participante_id": "nestor",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 154,
+    "nombre": "Stefan Bissegger",
+    "equipo": "Decathlon AG2R",
+    "nacionalidad": "Suiza",
+    "participante_id": "diego",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 155,
+    "nombre": "Oliver Naesen",
+    "equipo": "Decathlon AG2R",
+    "nacionalidad": "Bélgica",
+    "participante_id": "joaquin",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 156,
+    "nombre": "Aurélien Paret-Peintre",
+    "equipo": "Decathlon AG2R",
+    "nacionalidad": "Francia",
+    "participante_id": "ibarrola",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 157,
+    "nombre": "Callum Scotson",
+    "equipo": "Decathlon AG2R",
+    "nacionalidad": "Australia",
+    "participante_id": "jose-angel",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 158,
+    "nombre": "Bastien Tronchon",
+    "equipo": "Decathlon AG2R",
+    "nacionalidad": "Francia",
+    "participante_id": "arza",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 161,
+    "nombre": "Emanuel Buchmann",
+    "equipo": "Cofidis",
+    "nacionalidad": "Alemania",
+    "participante_id": "begona",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 162,
+    "nombre": "Alex Aranburu",
+    "equipo": "Cofidis",
+    "nacionalidad": "España",
+    "participante_id": "palos",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 163,
+    "nombre": "Bryan Coquard",
+    "equipo": "Cofidis",
+    "nacionalidad": "Francia",
+    "participante_id": "frodo",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 164,
+    "nombre": "Ion Izagirre",
+    "equipo": "Cofidis",
+    "nacionalidad": "España",
+    "participante_id": "frodo",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 165,
+    "nombre": "Alexis Renard",
+    "equipo": "Cofidis",
+    "nacionalidad": "Francia",
+    "participante_id": "uzkeda",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 166,
+    "nombre": "Dylan Teuns",
+    "equipo": "Cofidis",
+    "nacionalidad": "Bélgica",
+    "participante_id": "boston",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 167,
+    "nombre": "Benjamin Thomas",
+    "equipo": "Cofidis",
+    "nacionalidad": "Francia",
+    "participante_id": "elio",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 168,
+    "nombre": "Damien Touzé",
+    "equipo": "Cofidis",
+    "nacionalidad": "Francia",
+    "participante_id": "ruben",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 171,
+    "nombre": "Harold Tejada",
+    "equipo": "XDS Astana Team",
+    "nacionalidad": "Colombia",
+    "participante_id": "enrique",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 172,
+    "nombre": "Davide Ballerini",
+    "equipo": "XDS Astana Team",
+    "nacionalidad": "Italia",
+    "participante_id": "chillida",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 173,
+    "nombre": "Cees Bol",
+    "equipo": "XDS Astana Team",
+    "nacionalidad": "Países Bajos",
+    "participante_id": "vicuna",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 174,
+    "nombre": "Clément Champoussin",
+    "equipo": "XDS Astana Team",
+    "nacionalidad": "Francia",
+    "participante_id": "arza",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 175,
+    "nombre": "Yevgeniy Fedorov",
+    "equipo": "XDS Astana Team",
+    "nacionalidad": "Kazajistán",
+    "participante_id": "begona",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 176,
+    "nombre": "Sergio Higuita",
+    "equipo": "XDS Astana Team",
+    "nacionalidad": "Colombia",
+    "participante_id": "hector",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 177,
+    "nombre": "Mike Teunissen",
+    "equipo": "XDS Astana Team",
+    "nacionalidad": "Países Bajos",
+    "participante_id": "nestor",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 178,
+    "nombre": "Simone Velasco",
+    "equipo": "XDS Astana Team",
+    "nacionalidad": "Italia",
+    "participante_id": "diego",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 181,
+    "nombre": "Steff Cras",
+    "equipo": "TotalEnergies",
+    "nacionalidad": "Bélgica",
+    "participante_id": "joaquin",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 182,
+    "nombre": "Mathieu Burgaudeau",
+    "equipo": "TotalEnergies",
+    "nacionalidad": "Francia",
+    "participante_id": "arza",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 183,
+    "nombre": "Alexandre Delettre",
+    "equipo": "TotalEnergies",
+    "nacionalidad": "Francia",
+    "participante_id": "ibarrola",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 184,
+    "nombre": "Thomas Gachignard",
+    "equipo": "TotalEnergies",
+    "nacionalidad": "Francia",
+    "participante_id": "jose-angel",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 185,
+    "nombre": "Emilien Jeannière",
+    "equipo": "TotalEnergies",
+    "nacionalidad": "Francia",
+    "participante_id": "arza",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 186,
+    "nombre": "Jordan Jegat",
+    "equipo": "TotalEnergies",
+    "nacionalidad": "Francia",
+    "participante_id": "palos",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 187,
+    "nombre": "Anthony Turgis",
+    "equipo": "TotalEnergies",
+    "nacionalidad": "Francia",
+    "participante_id": "frodo",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 188,
+    "nombre": "Mattéo Vercher",
+    "equipo": "TotalEnergies",
+    "nacionalidad": "Francia",
+    "participante_id": "uzkeda",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 191,
+    "nombre": "Oscar Onley",
+    "equipo": "Picnic PostNL",
+    "nacionalidad": "Reino Unido",
+    "participante_id": "boston",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 192,
+    "nombre": "Warren Barguil",
+    "equipo": "Picnic PostNL",
+    "nacionalidad": "Francia",
+    "participante_id": "palos",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 193,
+    "nombre": "Pavel Bittner",
+    "equipo": "Picnic PostNL",
+    "nacionalidad": "Chequia",
+    "participante_id": "elio",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 194,
+    "nombre": "Sean Flynn",
+    "equipo": "Picnic PostNL",
+    "nacionalidad": "Reino Unido",
+    "participante_id": "ruben",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 195,
+    "nombre": "Tobias Lund Andresen",
+    "equipo": "Picnic PostNL",
+    "nacionalidad": "Dinamarca",
+    "participante_id": "enrique",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 196,
+    "nombre": "Niklas Märkl",
+    "equipo": "Picnic PostNL",
+    "nacionalidad": "Alemania",
+    "participante_id": "chillida",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 197,
+    "nombre": "Tim Naberman",
+    "equipo": "Picnic PostNL",
+    "nacionalidad": "Países Bajos",
+    "participante_id": "vicuna",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 198,
+    "nombre": "Frank van den Broek",
+    "equipo": "Picnic PostNL",
+    "nacionalidad": "Países Bajos",
+    "participante_id": "begona",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 201,
+    "nombre": "Michael Woods",
+    "equipo": "Israel-Premier Tech",
+    "nacionalidad": "Canadá",
+    "participante_id": "frodo",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 202,
+    "nombre": "Pascal Ackermann",
+    "equipo": "Israel-Premier Tech",
+    "nacionalidad": "Alemania",
+    "participante_id": "enrique",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 203,
+    "nombre": "Joseph Blackmore",
+    "equipo": "Israel-Premier Tech",
+    "nacionalidad": "Reino Unido",
+    "participante_id": "hector",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 204,
+    "nombre": "Guillaume Boivin",
+    "equipo": "Israel-Premier Tech",
+    "nacionalidad": "Canadá",
+    "participante_id": "nestor",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 205,
+    "nombre": "Matis Louvel",
+    "equipo": "Israel-Premier Tech",
+    "nacionalidad": "Francia",
+    "participante_id": "diego",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 206,
+    "nombre": "Alexey Lutsenko",
+    "equipo": "Israel-Premier Tech",
+    "nacionalidad": "Kazajistán",
+    "participante_id": "joaquin",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 207,
+    "nombre": "Krists Neilands",
+    "equipo": "Israel-Premier Tech",
+    "nacionalidad": "Letonia",
+    "participante_id": "ibarrola",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 208,
+    "nombre": "Jake Stewart",
+    "equipo": "Israel-Premier Tech",
+    "nacionalidad": "Reino Unido",
+    "participante_id": "jose-angel",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 211,
+    "nombre": "Arnaud De Lie",
+    "equipo": "Lotto",
+    "nacionalidad": "Bélgica",
+    "participante_id": "diego",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 212,
+    "nombre": "Jenno Berckmoes",
+    "equipo": "Lotto",
+    "nacionalidad": "Bélgica",
+    "participante_id": "arza",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 213,
+    "nombre": "Jasper De Buyst",
+    "equipo": "Lotto",
+    "nacionalidad": "Bélgica",
+    "participante_id": "palos",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 214,
+    "nombre": "Jarrad Drizners",
+    "equipo": "Lotto",
+    "nacionalidad": "Australia",
+    "participante_id": "frodo",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 215,
+    "nombre": "Sébastien Grignard",
+    "equipo": "Lotto",
+    "nacionalidad": "Bélgica",
+    "participante_id": "uzkeda",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 216,
+    "nombre": "Eduardo Sepúlveda",
+    "equipo": "Lotto",
+    "nacionalidad": "Argentina",
+    "participante_id": "boston",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 217,
+    "nombre": "Lennert Van Eetvelt",
+    "equipo": "Lotto",
+    "nacionalidad": "Bélgica",
+    "participante_id": "elio",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 218,
+    "nombre": "Brent Van Moer",
+    "equipo": "Lotto",
+    "nacionalidad": "Bélgica",
+    "participante_id": "ruben",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 221,
+    "nombre": "Tobias Halland Johannessen",
+    "equipo": "Uno-X Mobility",
+    "nacionalidad": "Noruega",
+    "participante_id": "enrique",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 222,
+    "nombre": "Jonas Abrahamsen",
+    "equipo": "Uno-X Mobility",
+    "nacionalidad": "Noruega",
+    "participante_id": "chillida",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 223,
+    "nombre": "Magnus Cort",
+    "equipo": "Uno-X Mobility",
+    "nacionalidad": "Dinamarca",
+    "participante_id": "ibarrola",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 224,
+    "nombre": "Stian Fredheim",
+    "equipo": "Uno-X Mobility",
+    "nacionalidad": "Noruega",
+    "participante_id": "vicuna",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 225,
+    "nombre": "Markus Hoelgaard",
+    "equipo": "Uno-X Mobility",
+    "nacionalidad": "Noruega",
+    "participante_id": "begona",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 226,
+    "nombre": "Anders Halland Johannessen",
+    "equipo": "Uno-X Mobility",
+    "nacionalidad": "Noruega",
+    "participante_id": "hector",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 227,
+    "nombre": "Andreas Leknessund",
+    "equipo": "Uno-X Mobility",
+    "nacionalidad": "Noruega",
+    "participante_id": "nestor",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
+  },
+  {
+    "dorsal": 228,
+    "nombre": "Søren Wærenskjold",
+    "equipo": "Uno-X Mobility",
+    "nacionalidad": "Noruega",
+    "participante_id": "diego",
+    "redes_sociales": {},
+    "puntos": 0,
+    "logros": {
+      "victorias_etapa": 0,
+      "etapa_reina": false,
+      "clasificacion_general": false,
+      "maillot_amarillo": false,
+      "maillot_verde": false,
+      "maillot_polka": false,
+      "maillot_blanco": false
+    }
   }
 ]
-

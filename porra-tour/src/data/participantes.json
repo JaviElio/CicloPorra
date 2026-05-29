@@ -1,17 +1,322 @@
 [
   {
-    "id": "alice",
-    "nombre": "Alice",
+    "id": "arza",
+    "nombre": "Arza",
     "avatar": "🚴",
-    "ciclistas_dorsales": [1, 14],
+    "ciclistas_dorsales": [
+      1,
+      38,
+      68,
+      98,
+      127,
+      158,
+      174,
+      182,
+      185,
+      212
+    ],
     "puntos_total": 0
   },
   {
-    "id": "bob",
-    "nombre": "Bob",
+    "id": "begona",
+    "nombre": "Begoña",
     "avatar": "🏁",
-    "ciclistas_dorsales": [27, 53],
+    "ciclistas_dorsales": [
+      27,
+      56,
+      87,
+      106,
+      116,
+      131,
+      145,
+      161,
+      175,
+      198,
+      225
+    ],
+    "puntos_total": 0
+  },
+  {
+    "id": "boston",
+    "nombre": "Boston",
+    "avatar": "🥇",
+    "ciclistas_dorsales": [
+      12,
+      45,
+      71,
+      77,
+      91,
+      107,
+      135,
+      148,
+      166,
+      191,
+      216
+    ],
+    "puntos_total": 0
+  },
+  {
+    "id": "chillida",
+    "nombre": "Chillida",
+    "avatar": "⭐",
+    "ciclistas_dorsales": [
+      2,
+      16,
+      25,
+      53,
+      84,
+      85,
+      113,
+      142,
+      172,
+      196,
+      222
+    ],
+    "puntos_total": 0
+  },
+  {
+    "id": "diego",
+    "nombre": "Diego",
+    "avatar": "🔥",
+    "ciclistas_dorsales": [
+      33,
+      61,
+      62,
+      72,
+      93,
+      122,
+      154,
+      178,
+      205,
+      211,
+      228
+    ],
+    "puntos_total": 0
+  },
+  {
+    "id": "elio",
+    "nombre": "Elío",
+    "avatar": "💪",
+    "ciclistas_dorsales": [
+      8,
+      13,
+      46,
+      52,
+      78,
+      108,
+      136,
+      141,
+      167,
+      193,
+      217
+    ],
+    "puntos_total": 0
+  },
+  {
+    "id": "enrique",
+    "nombre": "Enrique",
+    "avatar": "🎯",
+    "ciclistas_dorsales": [
+      23,
+      48,
+      66,
+      74,
+      83,
+      112,
+      138,
+      171,
+      195,
+      202,
+      221
+    ],
+    "puntos_total": 0
+  },
+  {
+    "id": "frodo",
+    "nombre": "Frodo",
+    "avatar": "🏆",
+    "ciclistas_dorsales": [
+      11,
+      43,
+      75,
+      104,
+      132,
+      163,
+      164,
+      187,
+      201,
+      214
+    ],
+    "puntos_total": 0
+  },
+  {
+    "id": "hector",
+    "nombre": "Héctor",
+    "avatar": "⚡",
+    "ciclistas_dorsales": [
+      28,
+      55,
+      57,
+      64,
+      88,
+      114,
+      117,
+      146,
+      176,
+      203,
+      226
+    ],
+    "puntos_total": 0
+  },
+  {
+    "id": "ibarrola",
+    "nombre": "Ibarrola",
+    "avatar": "🌟",
+    "ciclistas_dorsales": [
+      4,
+      36,
+      41,
+      65,
+      95,
+      96,
+      125,
+      156,
+      183,
+      207,
+      223
+    ],
+    "puntos_total": 0
+  },
+  {
+    "id": "joaquin",
+    "nombre": "Joaquín",
+    "avatar": "🎖️",
+    "ciclistas_dorsales": [
+      5,
+      24,
+      31,
+      34,
+      63,
+      94,
+      123,
+      147,
+      155,
+      181,
+      206
+    ],
+    "puntos_total": 0
+  },
+  {
+    "id": "jose-angel",
+    "nombre": "Jose Ángel",
+    "avatar": "🚵",
+    "ciclistas_dorsales": [
+      3,
+      15,
+      37,
+      67,
+      97,
+      126,
+      134,
+      152,
+      157,
+      184,
+      208
+    ],
+    "puntos_total": 0
+  },
+  {
+    "id": "nestor",
+    "nombre": "Néstor",
+    "avatar": "🦅",
+    "ciclistas_dorsales": [
+      18,
+      32,
+      58,
+      92,
+      118,
+      124,
+      151,
+      153,
+      177,
+      204,
+      227
+    ],
+    "puntos_total": 0
+  },
+  {
+    "id": "palos",
+    "nombre": "Palos",
+    "avatar": "🐢",
+    "ciclistas_dorsales": [
+      21,
+      42,
+      73,
+      102,
+      103,
+      128,
+      162,
+      186,
+      192,
+      213
+    ],
+    "puntos_total": 0
+  },
+  {
+    "id": "ruben",
+    "nombre": "Rubén",
+    "avatar": "🦁",
+    "ciclistas_dorsales": [
+      14,
+      22,
+      47,
+      81,
+      82,
+      111,
+      121,
+      137,
+      168,
+      194,
+      218
+    ],
+    "puntos_total": 0
+  },
+  {
+    "id": "uzkeda",
+    "nombre": "Uzkeda",
+    "avatar": "🐻",
+    "ciclistas_dorsales": [
+      6,
+      7,
+      35,
+      44,
+      76,
+      101,
+      105,
+      133,
+      165,
+      188,
+      215
+    ],
+    "puntos_total": 0
+  },
+  {
+    "id": "vicuna",
+    "nombre": "Vicuña",
+    "avatar": "🎪",
+    "ciclistas_dorsales": [
+      17,
+      26,
+      51,
+      54,
+      86,
+      115,
+      143,
+      144,
+      173,
+      197,
+      224
+    ],
     "puntos_total": 0
   }
 ]
-
