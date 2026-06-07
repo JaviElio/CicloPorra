@@ -15,9 +15,7 @@ html,
 body {
   height: 100%;
   margin: 0;
-  background: radial-gradient(1200px circle at 10% 0%, rgba(255, 193, 7, 0.15), transparent 55%),
-    radial-gradient(900px circle at 90% 10%, rgba(229, 57, 53, 0.12), transparent 50%),
-    var(--tour-bg);
+  background: var(--tour-bg);
   color: var(--text);
   font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji",
     "Segoe UI Emoji";
