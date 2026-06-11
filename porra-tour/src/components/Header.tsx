@@ -65,6 +65,17 @@ export default function Header() {
         >
           🚴 Ciclistas
         </NavLink>
+        <NavLink
+          to="/premios"
+          style={({ isActive }) => ({
+            padding: '8px 12px',
+            borderRadius: 12,
+            border: '1px solid rgba(255,255,255,0.14)',
+            background: isActive ? 'rgba(76,175,80,0.16)' : 'rgba(255,255,255,0.04)',
+          })}
+        >
+          🎖️ Premios
+        </NavLink>
       </nav>
     </header>
   );

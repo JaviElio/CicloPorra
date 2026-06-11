@@ -99,20 +99,22 @@ porra-tour/
 ├── src/
 │   ├── assets/           # Imágenes, logos
 │   ├── components/
-│   │   ├── Header.jsx
-│   │   ├── ClasificacionCard.jsx
-│   │   ├── CiclistaRow.jsx
-│   │   └── MaillotBadge.jsx
+│   │   ├── Header.tsx
+│   │   ├── ClasificacionCard.tsx
+│   │   ├── CiclistaRow.tsx
+│   │   ├── MaillotBadge.tsx
+│   │   └── TablaPremios.tsx
 │   ├── pages/
-│   │   ├── Clasificacion.jsx    # Vista principal: ranking de participantes
-│   │   ├── Participante.jsx     # Vista detalle de un participante y sus ciclistas
-│   │   └── Ciclistas.jsx        # Listado completo por dorsal
+│   │   ├── ClasificacionPage.tsx    # Vista principal: ranking de participantes
+│   │   ├── ParticipantePage.tsx     # Vista detalle de un participante y sus ciclistas
+│   │   ├── CiclistasPage.tsx        # Listado completo por dorsal
+│   │   └── PremiosPage.tsx          # Tabla de premios y sistema de puntuación
 │   ├── data/
 │   │   ├── ciclistas.json
 │   │   ├── participantes.json
 │   │   └── config.json
-│   ├── App.jsx
-│   └── main.jsx
+│   ├── App.tsx
+│   └── main.tsx
 ├── scripts/
 │   └── update_puntos.py         # Script opcional de actualización/scraping
 ├── .github/
@@ -140,10 +142,6 @@ porra-tour/
   - Número de ciclistas asignados
 - Al hacer clic en un participante → navega a su vista de detalle
 - Indicador de última actualización
-
----
-
-### 5.2 Detalle de Participante (`/participante/:id`)
 
 **Propósito:** Ver los ciclistas asignados a un participante y sus puntos individuales.
 
@@ -175,6 +173,21 @@ porra-tour/
   - Puntos
   - Links a redes sociales (iconos)
 - Ordenación por columnas (dorsal, puntos, nombre)
+
+---
+
+### 5.4 Tabla de Premios (`/premios`)
+
+**Propósito:** Mostrar el sistema de puntuación completo y cómo se ganan puntos en la porra.
+
+**Contenido:**
+- Dos tablas de premios:
+  - **Etapas:** Premios durante el Tour (victorias de etapa, etapa reina, etc.)
+  - **Finales:** Premios al terminar el Tour (maillots, clasificación general, farolillo rojo)
+- Cada fila muestra:
+  - Categoría de logro
+  - Puntos asignados
+  - Notas especiales si aplica (ej: "Puntúa doble", "Por día", "Último clasificado")
 
 ---
 
@@ -226,6 +239,7 @@ git push
 Header (siempre visible)
 ├── 🏆 Clasificación  →  /
 ├── 🚴 Ciclistas      →  /ciclistas
+├── 🎖️ Premios       →  /premios
 └── [Nombre tour] + etapa actual (solo informativo)
 ```
 
