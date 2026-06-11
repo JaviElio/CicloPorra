@@ -35,7 +35,7 @@ export function ClasificacionPage() {
         }}
       >
         {participantesOrdenados.map((p, idx) => (
-          <ClasificacionCard key={p.id} participante={p} posicion={idx + 1} numCiclistas={p.ciclistas_dorsales.length} />
+          <ClasificacionCard key={p.id} participante={p} posicion={idx + 1} />
         ))}
       </div>
     </section>

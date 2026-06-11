@@ -4,11 +4,9 @@ import type { Participante } from '../data/types';
 export default function ClasificacionCard({
   participante,
   posicion,
-  numCiclistas,
 }: {
   participante: Participante;
   posicion: number;
-  numCiclistas: number;
 }) {
   return (
     <Link
@@ -50,15 +48,12 @@ export default function ClasificacionCard({
               <span style={{ marginRight: 8 }}>{participante.avatar}</span>
               {participante.nombre}
             </div>
-            <div className="muted" style={{ fontSize: 13 }}>
-              {numCiclistas} ciclistas asignados
-            </div>
           </div>
         </div>
 
         <div style={{ textAlign: 'right' }}>
           <div className="muted" style={{ fontSize: 13 }}>
-            Puntos totales
+            Puntos
           </div>
           <div style={{ fontWeight: 950, fontSize: 22 }}>{participante.puntos_total}</div>
         </div>
