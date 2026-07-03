@@ -20,6 +20,8 @@ export default function CiclistaRow({
   showParticipantLink?: boolean;
 }) {
   const maillotKeys = getMaillotBadgesFromLogros(ciclista.logros);
+  const flagEmoji = getFlagEmojiFromNacionalidad(ciclista.nacionalidad);
+
   return (
     <tr>
       <td style={{ padding: '10px 8px', borderBottom: '1px solid rgba(255,255,255,0.10)' }}>
@@ -32,10 +34,11 @@ export default function CiclistaRow({
         </div>
       </td>
       <td style={{ padding: '10px 8px', borderBottom: '1px solid rgba(255,255,255,0.10)' }}>
-        <span aria-label={ciclista.nacionalidad}>
-          {getFlagEmojiFromNacionalidad(ciclista.nacionalidad)}
-        </span>{' '}
-        <span className="muted">{ciclista.nacionalidad}</span>
+        {flagEmoji ? (
+          <span aria-label={ciclista.nacionalidad} title={ciclista.nacionalidad}>
+            {flagEmoji}
+          </span>
+        ) : null}
       </td>
       <td style={{ padding: '10px 8px', borderBottom: '1px solid rgba(255,255,255,0.10)' }}>
         <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>
