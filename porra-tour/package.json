@@ -8,7 +8,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint .",
-    "scrape:ciclistas": "python scripts/scrape_ciclistas.py"
+    "scrape:ciclistas": "python scripts/scrape_ciclistas.py",
+    "scrape:ganadores": "python scripts/scrape_ganadores_etapas.py"
   },
   "dependencies": {
     "react": "^18.3.1",
