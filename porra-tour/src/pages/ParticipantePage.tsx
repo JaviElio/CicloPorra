@@ -2,8 +2,13 @@ import { Link, useParams } from 'react-router-dom';
 import { loadDataModel } from '../data/loader';
 import { computeParticipantePuntos, computeCiclistaPuntos } from '../data/scoring';
 import MaillotBadge, { getMaillotBadgesFromLogros } from '../components/MaillotBadge';
+import grupetasJson from '../data/grupetas.json';
 
 const model = loadDataModel();
+
+const grupetaInicialDorsales = new Map<string, Set<number>>(
+  grupetasJson.grupetas.map((g) => [g.participante_id, new Set(g.dorsales)]),
+);
 
 export function ParticipantePage() {
   const { id } = useParams<'id'>();
@@ -38,6 +43,8 @@ export function ParticipantePage() {
     .map((dorsal) => ciclistasByDorsal.get(dorsal))
     .filter((x): x is NonNullable<typeof x> => Boolean(x))
     .sort((a, b) => a.dorsal - b.dorsal);
+
+  const dorsalesGrupetaInicial = grupetaInicialDorsales.get(participante.id) ?? new Set<number>();
 
   return (
     <section>
@@ -90,8 +97,12 @@ export function ParticipantePage() {
               {ciclistasSeleccionados.map((c) => {
                 const maillotKeys = getMaillotBadgesFromLogros(c.logros);
                 const puntos = computeCiclistaPuntos(c, model.config);
+                const esDeGrupetaInicial = dorsalesGrupetaInicial.has(c.dorsal);
                 return (
-                  <tr key={c.dorsal}>
+                  <tr
+                    key={c.dorsal}
+                    style={esDeGrupetaInicial ? { background: 'rgba(255, 193, 7, 0.12)' } : undefined}
+                  >
                     <td style={{ padding: '10px 8px', borderBottom: '1px solid rgba(255,255,255,0.08)' }}>{c.dorsal}</td>
                     <td style={{ padding: '10px 8px', borderBottom: '1px solid rgba(255,255,255,0.08)' }}>
                       <div style={{ fontWeight: 800 }}>{c.nombre}</div>
