@@ -34,7 +34,15 @@ export function CiclistasPage() {
     let list: Ciclista[] = [...model.ciclistas];
 
     if (q) {
-      list = list.filter((c) => includesLoose(c.nombre, q) || includesLoose(c.equipo, q));
+      const tokens = q.split(/\s+/).filter(Boolean);
+      const dorsalTokens = tokens.filter((t) => /^\d+$/.test(t)).map(Number);
+      const textQuery = tokens.filter((t) => !/^\d+$/.test(t)).join(' ');
+
+      list = list.filter((c) => {
+        if (dorsalTokens.includes(c.dorsal)) return true;
+        if (textQuery && (includesLoose(c.nombre, textQuery) || includesLoose(c.equipo, textQuery))) return true;
+        return false;
+      });
     }
     if (participanteId !== 'all') {
       list = list.filter((c) => model.participanteIdByDorsal.get(c.dorsal) === participanteId);
@@ -77,12 +85,12 @@ export function CiclistasPage() {
         >
           <div>
             <div className="muted" style={{ fontSize: 13, marginBottom: 6 }}>
-              Buscar (nombre / equipo)
+              Buscar (nombre / equipo / dorsal)
             </div>
             <input
               value={query}
               onChange={(e) => setQuery(e.target.value)}
-              placeholder="Ej: Pogačar, Visma…"
+              placeholder="Ej: Pogačar, Visma, 12 45…"
               style={{
                 width: '100%',
                 padding: '10px 12px',
@@ -121,7 +129,7 @@ export function CiclistasPage() {
             </select>
           </div>
 
-          <div>
+          <div style={{ display: 'none' }}>
             <div className="muted" style={{ fontSize: 13, marginBottom: 6 }}>
               Nacionalidad
             </div>
