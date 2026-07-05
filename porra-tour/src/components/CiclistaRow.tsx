@@ -14,14 +14,16 @@ export function renderLogrosSummary(logros: Logros) {
 export default function CiclistaRow({
   ciclista,
   participante,
+  enGrupetaInicial = false,
 }: {
   ciclista: Ciclista;
   participante?: Participante;
+  enGrupetaInicial?: boolean;
 }) {
   const flagEmoji = getFlagEmojiFromNacionalidad(ciclista.nacionalidad);
 
   return (
-    <tr>
+    <tr style={enGrupetaInicial ? { background: 'rgba(255, 193, 7, 0.12)' } : undefined}>
       <td style={{ padding: '10px 8px', borderBottom: '1px solid rgba(255,255,255,0.10)' }}>
         {ciclista.dorsal}
       </td>

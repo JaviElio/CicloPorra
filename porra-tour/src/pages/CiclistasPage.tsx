@@ -2,8 +2,11 @@ import { useMemo, useState } from 'react';
 import { loadDataModel } from '../data/loader';
 import type { Ciclista } from '../data/types';
 import CiclistaRow from '../components/CiclistaRow';
+import grupetasJson from '../data/grupetas.json';
 
 const model = loadDataModel();
+
+const dorsalesGrupetaInicial = new Set<number>(grupetasJson.grupetas.flatMap((g) => g.dorsales));
 
 type SortKey = 'dorsal' | 'puntos' | 'nombre';
 
@@ -212,6 +215,7 @@ export function CiclistasPage() {
                   key={c.dorsal}
                   ciclista={c}
                   participante={participantsById.get(model.participanteIdByDorsal.get(c.dorsal) ?? '')}
+                  enGrupetaInicial={dorsalesGrupetaInicial.has(c.dorsal)}
                 />
               ))}
               {filtered.length === 0 ? (
