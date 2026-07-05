@@ -3,6 +3,7 @@ import { loadDataModel } from '../data/loader';
 import type { Ciclista } from '../data/types';
 import CiclistaRow from '../components/CiclistaRow';
 import grupetasJson from '../data/grupetas.json';
+import { computeCiclistaPuntos } from '../data/scoring';
 
 const model = loadDataModel();
 
@@ -54,7 +55,7 @@ export function CiclistasPage() {
     const dir = sortDir === 'asc' ? 1 : -1;
     list.sort((a, b) => {
       if (sortKey === 'dorsal') return dir * (a.dorsal - b.dorsal);
-      if (sortKey === 'puntos') return dir * (a.puntos - b.puntos);
+      if (sortKey === 'puntos') return dir * (computeCiclistaPuntos(a, model.config) - computeCiclistaPuntos(b, model.config));
       return dir * a.nombre.localeCompare(b.nombre);
     });
 
@@ -223,6 +224,7 @@ export function CiclistasPage() {
                   key={c.dorsal}
                   ciclista={c}
                   participante={participantsById.get(model.participanteIdByDorsal.get(c.dorsal) ?? '')}
+                  config={model.config}
                   enGrupetaInicial={dorsalesGrupetaInicial.has(c.dorsal)}
                 />
               ))}

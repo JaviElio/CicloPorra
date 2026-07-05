@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
-import type { Ciclista, Logros, Participante } from '../data/types';
+import type { Ciclista, Config, Logros, Participante } from '../data/types';
 import { getFlagEmojiFromNacionalidad } from '../data/flagEmoji';
+import { computeCiclistaPuntos } from '../data/scoring';
 
 export function renderLogrosSummary(logros: Logros) {
   const items: string[] = [];
@@ -14,13 +15,16 @@ export function renderLogrosSummary(logros: Logros) {
 export default function CiclistaRow({
   ciclista,
   participante,
+  config,
   enGrupetaInicial = false,
 }: {
   ciclista: Ciclista;
   participante?: Participante;
+  config: Config;
   enGrupetaInicial?: boolean;
 }) {
   const flagEmoji = getFlagEmojiFromNacionalidad(ciclista.nacionalidad);
+  const puntos = computeCiclistaPuntos(ciclista, config);
 
   return (
     <tr style={enGrupetaInicial ? { background: 'rgba(255, 193, 7, 0.12)' } : undefined}>
@@ -63,7 +67,7 @@ export default function CiclistaRow({
         )}
       </td>
       <td style={{ padding: '10px 8px', borderBottom: '1px solid rgba(255,255,255,0.10)' }}>
-        <div style={{ fontWeight: 850 }}>{ciclista.puntos}</div>
+        <div style={{ fontWeight: 850 }}>{puntos}</div>
       </td>
     </tr>
   );
