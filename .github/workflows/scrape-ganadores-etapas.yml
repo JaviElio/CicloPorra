@@ -2,7 +2,7 @@ name: Scrape ganadores de etapa
 
 on:
   schedule:
-    - cron: '0 21 4-26 7 *'
+    - cron: '05 20 4-26 7 *'
   workflow_dispatch:
 
 permissions:
