@@ -44,6 +44,7 @@ export default function Header() {
       <nav style={{ display: 'flex', gap: 10, flexWrap: 'wrap', justifyContent: 'flex-end' }}>
         <NavLink
           to="/"
+          aria-label="Clasificación"
           className={({ isActive }) => (isActive ? 'activeNav' : undefined)}
           style={({ isActive }) => ({
             padding: '8px 12px',
@@ -52,10 +53,12 @@ export default function Header() {
             background: isActive ? 'rgba(255,193,7,0.18)' : 'rgba(255,255,255,0.04)',
           })}
         >
-          🏆 Clasificación
+          <span aria-hidden="true">🏆</span>
+          <span className="hide-mobile"> Clasificación</span>
         </NavLink>
         <NavLink
           to="/ciclistas"
+          aria-label="Ciclistas"
           style={({ isActive }) => ({
             padding: '8px 12px',
             borderRadius: 12,
@@ -63,10 +66,12 @@ export default function Header() {
             background: isActive ? 'rgba(229,57,53,0.16)' : 'rgba(255,255,255,0.04)',
           })}
         >
-          🚴 Ciclistas
+          <span aria-hidden="true">🚴</span>
+          <span className="hide-mobile"> Ciclistas</span>
         </NavLink>
         <NavLink
           to="/premios"
+          aria-label="Premios"
           style={({ isActive }) => ({
             padding: '8px 12px',
             borderRadius: 12,
@@ -74,7 +79,8 @@ export default function Header() {
             background: isActive ? 'rgba(76,175,80,0.16)' : 'rgba(255,255,255,0.04)',
           })}
         >
-          🎖️ Premios
+          <span aria-hidden="true">🎖️</span>
+          <span className="hide-mobile"> Premios</span>
         </NavLink>
       </nav>
     </header>

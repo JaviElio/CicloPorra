@@ -53,3 +53,41 @@ select {
   color: var(--muted);
 }
 
+.tbl-cell {
+  padding: 10px 8px;
+}
+
+.show-mobile {
+  display: none;
+}
+
+tr.mobile-detail-row {
+  display: none;
+}
+
+@media (max-width: 640px) {
+  .tbl-cell {
+    padding: 6px 4px;
+  }
+
+  .hide-mobile {
+    display: none;
+  }
+
+  .show-mobile {
+    display: inline-block;
+  }
+
+  .responsive-table {
+    min-width: 0 !important;
+  }
+
+  tr.row-clickable {
+    cursor: pointer;
+  }
+
+  tr.mobile-detail-row.is-expanded {
+    display: table-row;
+  }
+}
+

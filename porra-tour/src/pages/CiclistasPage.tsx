@@ -198,22 +198,22 @@ export function CiclistasPage() {
 
       <div className="card" style={{ padding: 16, marginTop: 14 }}>
         <div style={{ overflowX: 'auto' }}>
-          <table style={{ width: '100%', borderCollapse: 'collapse', minWidth: 860 }}>
+          <table className="responsive-table" style={{ width: '100%', borderCollapse: 'collapse', minWidth: 860 }}>
             <thead>
               <tr style={{ textAlign: 'left' }}>
-                <th style={{ padding: '10px 8px', borderBottom: '1px solid rgba(255,255,255,0.10)', fontSize: 13, fontWeight: 750 }}>
-                  Dorsal
+                <th className="tbl-cell" style={{ borderBottom: '1px solid rgba(255,255,255,0.10)', fontSize: 13, fontWeight: 750 }}>
+                  #
                 </th>
-                <th style={{ padding: '10px 8px', borderBottom: '1px solid rgba(255,255,255,0.10)', fontSize: 13, fontWeight: 750 }}>
+                <th className="tbl-cell" style={{ borderBottom: '1px solid rgba(255,255,255,0.10)', fontSize: 13, fontWeight: 750 }}>
                   Ciclista
                 </th>
-                <th style={{ padding: '10px 8px', borderBottom: '1px solid rgba(255,255,255,0.10)', fontSize: 13, fontWeight: 750 }}>
+                <th className="hide-mobile tbl-cell" style={{ borderBottom: '1px solid rgba(255,255,255,0.10)', fontSize: 13, fontWeight: 750 }}>
                   Nacionalidad
                 </th>
-                <th style={{ padding: '10px 8px', borderBottom: '1px solid rgba(255,255,255,0.10)', fontSize: 13, fontWeight: 750 }}>
+                <th className="tbl-cell" style={{ borderBottom: '1px solid rgba(255,255,255,0.10)', fontSize: 13, fontWeight: 750 }}>
                   Participante
                 </th>
-                <th style={{ padding: '10px 8px', borderBottom: '1px solid rgba(255,255,255,0.10)', fontSize: 13, fontWeight: 750 }}>
+                <th className="tbl-cell" style={{ borderBottom: '1px solid rgba(255,255,255,0.10)', fontSize: 13, fontWeight: 750 }}>
                   Puntos
                 </th>
               </tr>

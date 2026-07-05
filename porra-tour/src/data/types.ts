@@ -19,6 +19,7 @@ export type Ciclista = {
   nombre: string;
   equipo: string;
   nacionalidad: string;
+  link?: string;
   participante_id: string;
   redes_sociales?: RedesSociales;
   puntos: number;
