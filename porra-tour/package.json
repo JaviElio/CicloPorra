@@ -9,7 +9,7 @@
     "preview": "vite preview",
     "lint": "eslint .",
     "scrape:ciclistas": "python scripts/scrape_ciclistas.py",
-    "scrape:ganadores": "python scripts/scrape_ganadores_etapas.py"
+    "scrape:tour": "python scripts/scrape_tour.py"
   },
   "dependencies": {
     "react": "^18.3.1",

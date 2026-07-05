@@ -1,4 +1,4 @@
-name: Scrape ganadores de etapa
+name: Scrape tour
 
 on:
   schedule:
@@ -22,12 +22,12 @@ jobs:
         run: pip install -r porra-tour/scripts/requirements.txt
 
       - name: Run scraper
-        run: python porra-tour/scripts/scrape_ganadores_etapas.py
+        run: python porra-tour/scripts/scrape_tour.py
 
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add porra-tour/src/data/ganadores_etapas.json porra-tour/src/data/ciclistas.json porra-tour/src/data/config.json
-          git diff --cached --quiet || git commit -m "chore: actualizar ganadores de etapa"
+          git diff --cached --quiet || git commit -m "chore: actualizar datos del tour"
           git push
