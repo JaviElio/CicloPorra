@@ -1,4 +1,4 @@
-julioname: Scrape ganadores de etapa
+name: Scrape ganadores de etapa
 
 on:
   schedule:
