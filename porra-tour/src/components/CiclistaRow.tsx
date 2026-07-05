@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
-import type { Ciclista, Logros } from '../data/types';
-import MaillotBadge, { getMaillotBadgesFromLogros } from './MaillotBadge';
+import type { Ciclista, Logros, Participante } from '../data/types';
 import { getFlagEmojiFromNacionalidad } from '../data/flagEmoji';
 
 export function renderLogrosSummary(logros: Logros) {
@@ -14,12 +13,11 @@ export function renderLogrosSummary(logros: Logros) {
 
 export default function CiclistaRow({
   ciclista,
-  showParticipantLink = true,
+  participante,
 }: {
   ciclista: Ciclista;
-  showParticipantLink?: boolean;
+  participante?: Participante;
 }) {
-  const maillotKeys = getMaillotBadgesFromLogros(ciclista.logros);
   const flagEmoji = getFlagEmojiFromNacionalidad(ciclista.nacionalidad);
 
   return (
@@ -41,20 +39,9 @@ export default function CiclistaRow({
         ) : null}
       </td>
       <td style={{ padding: '10px 8px', borderBottom: '1px solid rgba(255,255,255,0.10)' }}>
-        <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>
-          {maillotKeys.length === 0 ? <span className="muted">—</span> : null}
-          {maillotKeys.map((k) => (
-            <MaillotBadge key={k} maillot={k} />
-          ))}
-        </div>
-      </td>
-      <td style={{ padding: '10px 8px', borderBottom: '1px solid rgba(255,255,255,0.10)' }}>
-        <div style={{ fontWeight: 850 }}>{ciclista.puntos}</div>
-      </td>
-      <td style={{ padding: '10px 8px', borderBottom: '1px solid rgba(255,255,255,0.10)' }}>
-        {showParticipantLink && ciclista.participante_id ? (
+        {participante ? (
           <Link
-            to={`/participante/${ciclista.participante_id}`}
+            to={`/participante/${participante.id}`}
             style={{
               display: 'inline-flex',
               alignItems: 'center',
@@ -63,11 +50,18 @@ export default function CiclistaRow({
               borderRadius: 12,
               border: '1px solid rgba(255,255,255,0.14)',
               background: 'rgba(255,255,255,0.04)',
+              color: 'rgba(255,255,255,0.95)',
             }}
           >
-            Ver participante
+            <span>{participante.avatar}</span>
+            <span>{participante.nombre}</span>
           </Link>
-        ) : null}
+        ) : (
+          <span className="muted">—</span>
+        )}
+      </td>
+      <td style={{ padding: '10px 8px', borderBottom: '1px solid rgba(255,255,255,0.10)' }}>
+        <div style={{ fontWeight: 850 }}>{ciclista.puntos}</div>
       </td>
     </tr>
   );

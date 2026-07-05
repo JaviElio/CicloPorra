@@ -34,7 +34,7 @@ export function CiclistasPage() {
       list = list.filter((c) => includesLoose(c.nombre, q) || includesLoose(c.equipo, q));
     }
     if (participanteId !== 'all') {
-      list = list.filter((c) => c.participante_id === participanteId);
+      list = list.filter((c) => model.participanteIdByDorsal.get(c.dorsal) === participanteId);
     }
     if (nacionalidad !== 'all') {
       list = list.filter((c) => c.nacionalidad === nacionalidad);
@@ -199,23 +199,24 @@ export function CiclistasPage() {
                   Nacionalidad
                 </th>
                 <th style={{ padding: '10px 8px', borderBottom: '1px solid rgba(255,255,255,0.10)', fontSize: 13, fontWeight: 750 }}>
-                  Maillots
+                  Participante
                 </th>
                 <th style={{ padding: '10px 8px', borderBottom: '1px solid rgba(255,255,255,0.10)', fontSize: 13, fontWeight: 750 }}>
                   Puntos
-                </th>
-                <th style={{ padding: '10px 8px', borderBottom: '1px solid rgba(255,255,255,0.10)', fontSize: 13, fontWeight: 750 }}>
-                  Porra
                 </th>
               </tr>
             </thead>
             <tbody>
               {filtered.map((c) => (
-                <CiclistaRow key={c.dorsal} ciclista={c} />
+                <CiclistaRow
+                  key={c.dorsal}
+                  ciclista={c}
+                  participante={participantsById.get(model.participanteIdByDorsal.get(c.dorsal) ?? '')}
+                />
               ))}
               {filtered.length === 0 ? (
                 <tr>
-                  <td colSpan={6} className="muted" style={{ padding: 14 }}>
+                  <td colSpan={5} className="muted" style={{ padding: 14 }}>
                     Sin resultados.
                   </td>
                 </tr>

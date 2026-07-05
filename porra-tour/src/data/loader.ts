@@ -10,6 +10,7 @@ export type DataModel = {
   ciclistasByDorsal: Map<number, Ciclista>;
   ciclistasByParticipante: Map<string, Ciclista[]>;
   participanteById: Map<string, Participante>;
+  participanteIdByDorsal: Map<number, string>;
 };
 
 export function loadDataModel(): DataModel {
@@ -20,19 +21,28 @@ export function loadDataModel(): DataModel {
   const ciclistasByDorsal = new Map<number, Ciclista>();
   for (const c of ciclistas) ciclistasByDorsal.set(c.dorsal, c);
 
+  const participanteById = new Map<string, Participante>();
+  for (const p of participantes) participanteById.set(p.id, p);
+
+  // La asignación real vive en participantes[].ciclistas_dorsales; el campo
+  // ciclista.participante_id no está poblado en los datos.
+  const participanteIdByDorsal = new Map<number, string>();
+  for (const p of participantes) {
+    for (const dorsal of p.ciclistas_dorsales) participanteIdByDorsal.set(dorsal, p.id);
+  }
+
   const ciclistasByParticipante = new Map<string, Ciclista[]>();
   for (const c of ciclistas) {
-    const list = ciclistasByParticipante.get(c.participante_id) ?? [];
+    const participanteId = participanteIdByDorsal.get(c.dorsal);
+    if (!participanteId) continue;
+    const list = ciclistasByParticipante.get(participanteId) ?? [];
     list.push(c);
-    ciclistasByParticipante.set(c.participante_id, list);
+    ciclistasByParticipante.set(participanteId, list);
   }
   for (const [k, list] of ciclistasByParticipante.entries()) {
     list.sort((a, b) => a.dorsal - b.dorsal);
     ciclistasByParticipante.set(k, list);
   }
-
-  const participanteById = new Map<string, Participante>();
-  for (const p of participantes) participanteById.set(p.id, p);
 
   return {
     ciclistas,
@@ -41,6 +51,7 @@ export function loadDataModel(): DataModel {
     ciclistasByDorsal,
     ciclistasByParticipante,
     participanteById,
+    participanteIdByDorsal,
   };
 }
 
