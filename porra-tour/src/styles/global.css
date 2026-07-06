@@ -57,6 +57,26 @@ select {
   padding: 10px 8px;
 }
 
+.header-logo {
+  height: 32px;
+  width: auto;
+}
+
+.app-header {
+  padding: 14px 16px;
+  margin: 12px auto 0;
+  gap: 14px;
+}
+
+.app-nav {
+  gap: 10px;
+}
+
+.nav-link {
+  padding: 8px 12px;
+  border-radius: 12px;
+}
+
 .show-mobile {
   display: none;
 }
@@ -88,6 +108,25 @@ tr.mobile-detail-row {
 
   tr.mobile-detail-row.is-expanded {
     display: table-row;
+  }
+
+  .header-logo {
+    height: 30px;
+  }
+
+  .app-header {
+    padding: 8px 10px;
+    margin: 8px auto 0;
+    gap: 8px;
+  }
+
+  .app-nav {
+    gap: 6px;
+  }
+
+  .nav-link {
+    padding: 6px 8px;
+    border-radius: 10px;
   }
 }
 
