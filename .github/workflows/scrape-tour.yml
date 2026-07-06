@@ -2,7 +2,7 @@ name: Scrape tour
 
 on:
   schedule:
-    - cron: '20 20 4-26 7 *'
+    - cron: '20 18 4-26 7 *'
   workflow_dispatch:
 
 permissions:
