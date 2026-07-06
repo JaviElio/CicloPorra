@@ -1,4 +1,5 @@
 import { NavLink } from 'react-router-dom';
+import logo from '../../assets/CicloPorra_blanco.svg';
 
 export default function Header() {
   return (
@@ -18,27 +19,7 @@ export default function Header() {
       }}
     >
       <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
-        <div
-          aria-hidden
-          style={{
-            width: 38,
-            height: 38,
-            borderRadius: 12,
-            background: 'linear-gradient(135deg, rgba(255,193,7,0.35), rgba(229,57,53,0.25))',
-            border: '1px solid rgba(255,255,255,0.16)',
-            display: 'grid',
-            placeItems: 'center',
-            fontSize: 18,
-          }}
-        >
-          🏆
-        </div>
-        <div>
-          <div style={{ fontWeight: 800, letterSpacing: -0.2 }}>CicloPorra</div>
-          <div className="muted" style={{ fontSize: 13 }}>
-            Porra Tour de Francia
-          </div>
-        </div>
+        <img src={logo} alt="CicloPorra" style={{ height: 32, width: 'auto' }} />
       </div>
 
       <nav style={{ display: 'flex', gap: 10, flexWrap: 'wrap', justifyContent: 'flex-end' }}>
