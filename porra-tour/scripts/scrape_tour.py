@@ -148,6 +148,12 @@ def determinar_premiado(posiciones: dict[int, int], podium_general: set[int]) ->
     return None
 
 
+def determinar_farolillo_rojo(posiciones_generales: dict[int, int]) -> int | None:
+    if not posiciones_generales:
+        return None
+    return max(posiciones_generales.items(), key=lambda kv: kv[1])[0]
+
+
 def save_ganadores(ganadores: list[dict[str, Any]]) -> None:
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     with OUTPUT_PATH.open("w", encoding="utf-8") as handle:
@@ -204,7 +210,7 @@ def update_abandonos(dorsales_abandonados: list[int]) -> None:
     print(f"Updated abandono for {len(ciclistas)} riders in {CICLISTAS_PATH}")
 
 
-def update_maillots(premiados: dict[str, int | None]) -> None:
+def update_logros_ganador_unico(premiados: dict[str, int | None]) -> None:
     with CICLISTAS_PATH.open("r", encoding="utf-8") as handle:
         ciclistas = json.load(handle)
 
@@ -214,7 +220,7 @@ def update_maillots(premiados: dict[str, int | None]) -> None:
 
     with CICLISTAS_PATH.open("w", encoding="utf-8") as handle:
         json.dump(ciclistas, handle, ensure_ascii=False, indent=2)
-    print(f"Updated maillots verde/montana/joven for {len(ciclistas)} riders in {CICLISTAS_PATH}")
+    print(f"Updated {', '.join(premiados)} for {len(ciclistas)} riders in {CICLISTAS_PATH}")
 
 
 def main() -> None:
@@ -238,8 +244,9 @@ def main() -> None:
             "maillot_verde": determinar_premiado(scrape_clasificacion(urls.get("ipg")), podium_general),
             "maillot_polka": determinar_premiado(scrape_clasificacion(urls.get("img")), podium_general),
             "maillot_blanco": determinar_premiado(scrape_clasificacion(urls.get("ijg")), podium_general),
+            "farolillo_rojo": determinar_farolillo_rojo(posiciones_generales),
         }
-        update_maillots(premiados)
+        update_logros_ganador_unico(premiados)
     else:
         print("Sin etapas con resultado todavia, no se actualiza la clasificacion general")
 

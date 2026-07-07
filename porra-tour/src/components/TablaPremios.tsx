@@ -22,14 +22,14 @@ function buildPremios(config: Config): { etapas: PremioRow[]; final: PremioRow[]
     etapas: [
       { categoria: 'Victoria de etapa', puntos: p.victoria_etapa },
       { categoria: 'Victoria etapa reina', puntos: p.victoria_etapa_reina, nota: 'Puntúa doble' },
-    ],
+    ].filter((row) => row.puntos !== 0),
     final: [
       ...posiciones,
       { categoria: 'Maillot verde', puntos: p.maillot_verde, nota: 'No acumulable con el podio' },
       { categoria: 'Maillot montaña', puntos: p.maillot_montana, nota: 'No acumulable con el podio' },
       { categoria: 'Maillot joven', puntos: p.maillot_joven, nota: 'No acumulable con el podio' },
       { categoria: 'Farolillo rojo', puntos: p.farolillo_rojo, nota: 'Último clasificado' },
-    ],
+    ].filter((row) => row.puntos !== 0),
   };
 }
 

@@ -1640,7 +1640,7 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "posicion_general": null,
+      "posicion_general": 13,
       "farolillo_rojo": false,
       "maillot_verde": false,
       "maillot_polka": false,
@@ -2627,7 +2627,7 @@
       "victorias_etapa": 0,
       "etapa_reina": false,
       "posicion_general": null,
-      "farolillo_rojo": false,
+      "farolillo_rojo": true,
       "maillot_verde": false,
       "maillot_polka": false,
       "maillot_blanco": false,
