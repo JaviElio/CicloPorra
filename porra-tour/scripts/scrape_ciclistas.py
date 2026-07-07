@@ -19,6 +19,7 @@ DEFAULT_LOGROS = {
     "etapa_reina": False,
     "posicion_general": None,
     "farolillo_rojo": False,
+    "abandono": False,
     "maillot_amarillo": False,
     "maillot_verde": False,
     "maillot_polka": False,

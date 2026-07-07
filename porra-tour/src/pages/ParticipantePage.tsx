@@ -130,7 +130,10 @@ export function ParticipantePage() {
                       <td className="tbl-cell" style={{ borderBottom: '1px solid rgba(255,255,255,0.08)' }}>{c.dorsal}</td>
                       <td className="tbl-cell" style={{ borderBottom: '1px solid rgba(255,255,255,0.08)' }}>
                         <div style={{ fontWeight: 800 }}>
-                          {c.nombre}
+                          {c.logros.abandono ? '☠️ ' : ''}
+                          <span style={{ textDecoration: c.logros.abandono ? 'line-through' : undefined }}>
+                            {c.nombre}
+                          </span>
                           <span className="show-mobile muted" style={{ marginLeft: 8, fontSize: 12 }}>
                             {isExpanded ? '▾' : '▸'}
                           </span>

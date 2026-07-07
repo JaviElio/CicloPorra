@@ -1,7 +1,8 @@
-Puntos por maillots
 Actualizar puntos premios
 Indicar abandonos
-elimiinar valor maillot amarillo en ciclistas.json. No sirve de nada
+eliminar valor maillot amarillo en ciclistas.json. No sirve de nada
 Crear página para forzar actualización de datos, generar resumen sistuación actual de carrera
-
+Al pulsar la ficha de corredor que se abra en una nueva pestaña
+Indicar el config.json que etapa es la reina
+Si el premio es 0, ocultar el premio en la página de premios
 

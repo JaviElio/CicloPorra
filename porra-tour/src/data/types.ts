@@ -8,6 +8,7 @@ export type Logros = {
   etapa_reina: boolean;
   posicion_general: number | null;
   farolillo_rojo: boolean;
+  abandono: boolean;
   maillot_amarillo: boolean;
   maillot_verde: boolean;
   maillot_polka: boolean;

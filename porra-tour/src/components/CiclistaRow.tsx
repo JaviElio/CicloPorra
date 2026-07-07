@@ -43,7 +43,10 @@ export default function CiclistaRow({
         </td>
         <td className="tbl-cell" style={{ borderBottom: '1px solid rgba(255,255,255,0.10)' }}>
           <div style={{ fontWeight: 750 }}>
-            {ciclista.nombre}
+            {ciclista.logros.abandono ? '☠️ ' : ''}
+            <span style={{ textDecoration: ciclista.logros.abandono ? 'line-through' : undefined }}>
+              {ciclista.nombre}
+            </span>
             <span className="show-mobile muted" style={{ marginLeft: 8, fontSize: 12 }}>
               {expanded ? '▾' : '▸'}
             </span>

@@ -13,6 +13,7 @@ from bs4 import BeautifulSoup
 
 BASE_URL = "https://www.letour.fr"
 STAGE_URL_TEMPLATE = f"{BASE_URL}/es/clasificaciones/etapa-{{numero}}"
+ABANDONOS_URL = f"{BASE_URL}/es/abandono"
 
 TOP_N_MAILLOT = 4
 
@@ -114,6 +115,23 @@ def parse_posiciones_generales(html: str) -> dict[int, int]:
     return posiciones
 
 
+def parse_dorsales_abandonados(html: str) -> list[int]:
+    soup = BeautifulSoup(html, "html.parser")
+    dorsales: list[int] = []
+
+    for celda in soup.select("td.is-alignCenter"):
+        match = re.search(r"\d+", celda.get_text())
+        if match:
+            dorsales.append(int(match.group()))
+
+    return dorsales
+
+
+def scrape_abandonos() -> list[int]:
+    html = get_html(ABANDONOS_URL)
+    return parse_dorsales_abandonados(html)
+
+
 def scrape_clasificacion(url_relativo: str | None) -> dict[int, int]:
     if url_relativo is None:
         return {}
@@ -166,6 +184,20 @@ def update_posicion_general(posiciones_por_dorsal: dict[int, int], config: dict[
     print(f"Updated posicion_general for {len(ciclistas)} riders in {CICLISTAS_PATH}")
 
 
+def update_abandonos(dorsales_abandonados: list[int]) -> None:
+    dorsales_set = set(dorsales_abandonados)
+
+    with CICLISTAS_PATH.open("r", encoding="utf-8") as handle:
+        ciclistas = json.load(handle)
+
+    for ciclista in ciclistas:
+        ciclista["logros"]["abandono"] = ciclista["dorsal"] in dorsales_set
+
+    with CICLISTAS_PATH.open("w", encoding="utf-8") as handle:
+        json.dump(ciclistas, handle, ensure_ascii=False, indent=2)
+    print(f"Updated abandono for {len(ciclistas)} riders in {CICLISTAS_PATH}")
+
+
 def update_maillots(premiados: dict[str, int | None]) -> None:
     with CICLISTAS_PATH.open("r", encoding="utf-8") as handle:
         ciclistas = json.load(handle)
@@ -184,6 +216,9 @@ def main() -> None:
     ganadores, soup_ultima_etapa = scrape_ganadores(int(config["total_etapas"]))
     save_ganadores(ganadores)
     update_victorias_etapa(ganadores)
+
+    dorsales_abandonados = scrape_abandonos()
+    update_abandonos(dorsales_abandonados)
 
     if soup_ultima_etapa is not None:
         urls = extraer_urls_clasificaciones(soup_ultima_etapa)
