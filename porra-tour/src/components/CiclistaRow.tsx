@@ -2,15 +2,19 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import type { Ciclista, Config, Logros, Participante } from '../data/types';
 import { getFlagEmojiFromNacionalidad } from '../data/flagEmoji';
-import { computeCiclistaPuntos } from '../data/scoring';
+import { computeCiclistaPuntos, getPuntosVictoriasEtapa, getPuntosPosicionGeneral } from '../data/scoring';
 import MaillotBadge, { getMaillotBadgesFromLogros } from './MaillotBadge';
 
-export function renderLogrosSummary(logros: Logros) {
+export function renderLogrosSummary(logros: Logros, config: Config) {
   const items: string[] = [];
-  if (logros.victorias_etapa > 0) items.push(`Victorias etapas: ${logros.victorias_etapa}`);
-  if (logros.etapa_reina) items.push('Etapa reina');
-  if (logros.posicion_general != null) items.push(`CG: ${logros.posicion_general}º`);
-  if (logros.farolillo_rojo) items.push('Farolillo rojo');
+  if (logros.victorias_etapa > 0 && getPuntosVictoriasEtapa(logros, config) > 0) {
+    items.push(`Victorias etapas: ${logros.victorias_etapa}`);
+  }
+  if (logros.etapa_reina && config.puntuacion.victoria_etapa_reina > 0) items.push('Etapa reina');
+  if (logros.posicion_general != null && getPuntosPosicionGeneral(logros.posicion_general, config) > 0) {
+    items.push(`CG: ${logros.posicion_general}º`);
+  }
+  if (logros.farolillo_rojo && config.puntuacion.farolillo_rojo > 0) items.push('Farolillo rojo');
   return items;
 }
 
@@ -29,7 +33,7 @@ export default function CiclistaRow({
   const puntos = computeCiclistaPuntos(ciclista, config);
   const [expanded, setExpanded] = useState(false);
   const maillotKeys = getMaillotBadgesFromLogros(ciclista.logros);
-  const logrosItems = renderLogrosSummary(ciclista.logros);
+  const logrosItems = renderLogrosSummary(ciclista.logros, config);
 
   return (
     <>

@@ -3,6 +3,7 @@ import { Link, useParams } from 'react-router-dom';
 import { loadDataModel } from '../data/loader';
 import { computeParticipantePuntos, computeCiclistaPuntos } from '../data/scoring';
 import MaillotBadge, { getMaillotBadgesFromLogros } from '../components/MaillotBadge';
+import { renderLogrosSummary } from '../components/CiclistaRow';
 import { getFlagEmojiFromNacionalidad } from '../data/flagEmoji';
 import grupetasJson from '../data/grupetas.json';
 
@@ -112,14 +113,8 @@ export function ParticipantePage() {
                 const esDeGrupetaInicial = dorsalesGrupetaInicial.has(c.dorsal);
                 const isExpanded = expandedDorsales.has(c.dorsal);
                 const flagEmoji = getFlagEmojiFromNacionalidad(c.nacionalidad);
-                const logrosResumen = (
-                  <>
-                    {c.logros.victorias_etapa > 0 ? `Victorias (${c.logros.victorias_etapa})` : '—'}
-                    {c.logros.etapa_reina ? ' · Etapa reina' : ''}
-                    {c.logros.posicion_general != null ? ` · CG ${c.logros.posicion_general}º` : ''}
-                    {c.logros.farolillo_rojo ? ' · Farolillo' : ''}
-                  </>
-                );
+                const logrosItems = renderLogrosSummary(c.logros, model.config);
+                const logrosResumen = logrosItems.length === 0 ? '—' : logrosItems.join(' · ');
                 return (
                   <Fragment key={c.dorsal}>
                     <tr
