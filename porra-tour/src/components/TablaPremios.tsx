@@ -25,9 +25,9 @@ function buildPremios(config: Config): { etapas: PremioRow[]; final: PremioRow[]
     ],
     final: [
       ...posiciones,
-      { categoria: 'Maillot verde', puntos: p.maillot_verde },
-      { categoria: 'Maillot montaña', puntos: p.maillot_montana },
-      { categoria: 'Maillot joven', puntos: p.maillot_joven },
+      { categoria: 'Maillot verde', puntos: p.maillot_verde, nota: 'No acumulable con el podio' },
+      { categoria: 'Maillot montaña', puntos: p.maillot_montana, nota: 'No acumulable con el podio' },
+      { categoria: 'Maillot joven', puntos: p.maillot_joven, nota: 'No acumulable con el podio' },
       { categoria: 'Farolillo rojo', puntos: p.farolillo_rojo, nota: 'Último clasificado' },
     ],
   };
@@ -120,6 +120,11 @@ export default function TablaPremios({ config }: { config: Config }) {
         <PremiosTable titulo="Etapas" subtitulo="Durante el tour" rows={etapas} />
         <PremiosTable titulo="Al final del tour" subtitulo="Clasificación, maillots y farolillo" rows={final} />
       </div>
+
+      <p className="muted" style={{ margin: '12px 0 0', fontSize: 12.5, lineHeight: 1.45 }}>
+        Si el líder de un maillot (verde, montaña o joven) también ocupa el podio de la general (1º-3º), el premio de
+        ese maillot no se otorga y pasa al siguiente clasificado de ese maillot que no esté en el podio.
+      </p>
     </section>
   );
 }

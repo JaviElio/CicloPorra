@@ -14,6 +14,8 @@ from bs4 import BeautifulSoup
 BASE_URL = "https://www.letour.fr"
 STAGE_URL_TEMPLATE = f"{BASE_URL}/es/clasificaciones/etapa-{{numero}}"
 
+TOP_N_MAILLOT = 4
+
 CONFIG_PATH = Path(__file__).resolve().parent.parent / "src" / "data" / "config.json"
 OUTPUT_PATH = Path(__file__).resolve().parent.parent / "src" / "data" / "ganadores_etapas.json"
 CICLISTAS_PATH = Path(__file__).resolve().parent.parent / "src" / "data" / "ciclistas.json"
@@ -84,13 +86,12 @@ def scrape_ganadores(total_etapas: int) -> tuple[list[dict[str, Any]], Beautiful
     return ganadores, soup_ultima_etapa
 
 
-def extraer_url_clasificacion_general(soup_etapa: BeautifulSoup) -> str | None:
+def extraer_urls_clasificaciones(soup_etapa: BeautifulSoup) -> dict[str, str]:
     elemento = soup_etapa.select_one("span[data-ajax-stack]")
     if elemento is None:
-        return None
+        return {}
 
-    ajax_stack = json.loads(elemento["data-ajax-stack"])
-    return ajax_stack.get("itg")
+    return json.loads(elemento["data-ajax-stack"])
 
 
 def parse_posiciones_generales(html: str) -> dict[int, int]:
@@ -113,14 +114,20 @@ def parse_posiciones_generales(html: str) -> dict[int, int]:
     return posiciones
 
 
-def scrape_clasificacion_general(soup_ultima_etapa: BeautifulSoup) -> dict[int, int]:
-    url_itg = extraer_url_clasificacion_general(soup_ultima_etapa)
-    if url_itg is None:
-        print("No se encontro la url de la clasificacion general en la etapa")
+def scrape_clasificacion(url_relativo: str | None) -> dict[int, int]:
+    if url_relativo is None:
         return {}
 
-    html = get_html(BASE_URL + url_itg)
+    html = get_html(BASE_URL + url_relativo)
     return parse_posiciones_generales(html)
+
+
+def determinar_premiado(posiciones: dict[int, int], podium_general: set[int]) -> int | None:
+    top = sorted(posiciones.items(), key=lambda kv: kv[1])[:TOP_N_MAILLOT]
+    for dorsal, _posicion in top:
+        if dorsal not in podium_general:
+            return dorsal
+    return None
 
 
 def save_ganadores(ganadores: list[dict[str, Any]]) -> None:
@@ -159,6 +166,19 @@ def update_posicion_general(posiciones_por_dorsal: dict[int, int], config: dict[
     print(f"Updated posicion_general for {len(ciclistas)} riders in {CICLISTAS_PATH}")
 
 
+def update_maillots(premiados: dict[str, int | None]) -> None:
+    with CICLISTAS_PATH.open("r", encoding="utf-8") as handle:
+        ciclistas = json.load(handle)
+
+    for ciclista in ciclistas:
+        for campo, dorsal_premiado in premiados.items():
+            ciclista["logros"][campo] = ciclista["dorsal"] == dorsal_premiado
+
+    with CICLISTAS_PATH.open("w", encoding="utf-8") as handle:
+        json.dump(ciclistas, handle, ensure_ascii=False, indent=2)
+    print(f"Updated maillots verde/montana/joven for {len(ciclistas)} riders in {CICLISTAS_PATH}")
+
+
 def main() -> None:
     config = load_config()
     ganadores, soup_ultima_etapa = scrape_ganadores(int(config["total_etapas"]))
@@ -166,8 +186,19 @@ def main() -> None:
     update_victorias_etapa(ganadores)
 
     if soup_ultima_etapa is not None:
-        posiciones_generales = scrape_clasificacion_general(soup_ultima_etapa)
+        urls = extraer_urls_clasificaciones(soup_ultima_etapa)
+
+        posiciones_generales = scrape_clasificacion(urls.get("itg"))
         update_posicion_general(posiciones_generales, config)
+
+        podium_general = {dorsal for dorsal, posicion in posiciones_generales.items() if posicion <= 3}
+
+        premiados = {
+            "maillot_verde": determinar_premiado(scrape_clasificacion(urls.get("ipg")), podium_general),
+            "maillot_polka": determinar_premiado(scrape_clasificacion(urls.get("img")), podium_general),
+            "maillot_blanco": determinar_premiado(scrape_clasificacion(urls.get("ijg")), podium_general),
+        }
+        update_maillots(premiados)
     else:
         print("Sin etapas con resultado todavia, no se actualiza la clasificacion general")
 

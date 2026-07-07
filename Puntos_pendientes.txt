@@ -1,0 +1,7 @@
+Puntos por maillots
+Actualizar puntos premios
+Indicar abandonos
+elimiinar valor maillot amarillo en ciclistas.json. No sirve de nada
+Crear página para forzar actualización de datos, generar resumen sistuación actual de carrera
+
+

@@ -507,7 +507,7 @@
       "posicion_general": null,
       "farolillo_rojo": false,
       "maillot_amarillo": false,
-      "maillot_verde": false,
+      "maillot_verde": true,
       "maillot_polka": false,
       "maillot_blanco": false
     }
@@ -660,7 +660,7 @@
       "farolillo_rojo": false,
       "maillot_amarillo": false,
       "maillot_verde": false,
-      "maillot_polka": false,
+      "maillot_polka": true,
       "maillot_blanco": false
     }
   },
@@ -1554,7 +1554,7 @@
       "maillot_amarillo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false
+      "maillot_blanco": true
     }
   },
   {
