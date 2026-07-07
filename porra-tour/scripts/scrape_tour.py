@@ -155,18 +155,24 @@ def save_ganadores(ganadores: list[dict[str, Any]]) -> None:
     print(f"Saved {len(ganadores)} winners to {OUTPUT_PATH}")
 
 
-def update_victorias_etapa(ganadores: list[dict[str, Any]]) -> None:
+def update_victorias_etapa(ganadores: list[dict[str, Any]], etapa_reina: int) -> None:
     victorias_por_dorsal = Counter(g["dorsal"] for g in ganadores)
+    dorsal_etapa_reina = next((g["dorsal"] for g in ganadores if g["etapa"] == etapa_reina), None)
 
     with CICLISTAS_PATH.open("r", encoding="utf-8") as handle:
         ciclistas = json.load(handle)
 
     for ciclista in ciclistas:
         ciclista["logros"]["victorias_etapa"] = victorias_por_dorsal.get(ciclista["dorsal"], 0)
+        ciclista["logros"]["etapa_reina"] = ciclista["dorsal"] == dorsal_etapa_reina
 
     with CICLISTAS_PATH.open("w", encoding="utf-8") as handle:
         json.dump(ciclistas, handle, ensure_ascii=False, indent=2)
     print(f"Updated victorias_etapa for {len(ciclistas)} riders in {CICLISTAS_PATH}")
+    if dorsal_etapa_reina is not None:
+        print(f"Etapa reina (etapa {etapa_reina}) ganada por dorsal {dorsal_etapa_reina}")
+    else:
+        print(f"Etapa reina (etapa {etapa_reina}) sin resultado todavia")
 
 
 def update_posicion_general(posiciones_por_dorsal: dict[int, int], config: dict[str, Any]) -> None:
@@ -215,7 +221,7 @@ def main() -> None:
     config = load_config()
     ganadores, soup_ultima_etapa = scrape_ganadores(int(config["total_etapas"]))
     save_ganadores(ganadores)
-    update_victorias_etapa(ganadores)
+    update_victorias_etapa(ganadores, int(config["etapa_reina"]))
 
     dorsales_abandonados = scrape_abandonos()
     update_abandonos(dorsales_abandonados)

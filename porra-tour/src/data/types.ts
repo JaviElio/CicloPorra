@@ -36,6 +36,7 @@ export type Config = {
   edicion: number;
   etapa_actual: number;
   total_etapas: number;
+  etapa_reina: number;
   ultima_actualizacion: string;
   puntuacion: {
     victoria_etapa: number;
