@@ -86,7 +86,7 @@ export function ParticipantePage() {
 
       <div className="card" style={{ padding: 16, marginTop: 14 }}>
         <div style={{ overflowX: 'auto' }}>
-          <table className="responsive-table" style={{ width: '100%', borderCollapse: 'collapse', minWidth: 720 }}>
+          <table className="responsive-table" style={{ width: '100%', borderCollapse: 'collapse', minWidth: 860 }}>
             <thead>
               <tr style={{ textAlign: 'left' }}>
                 <th className="tbl-cell" style={{ borderBottom: '1px solid rgba(255,255,255,0.10)', fontSize: 13, fontWeight: 750 }}>
@@ -96,13 +96,16 @@ export function ParticipantePage() {
                   Ciclista
                 </th>
                 <th className="hide-mobile tbl-cell" style={{ borderBottom: '1px solid rgba(255,255,255,0.10)', fontSize: 13, fontWeight: 750 }}>
-                  Maillots
+                  Nacionalidad
                 </th>
-                <th className="tbl-cell" style={{ borderBottom: '1px solid rgba(255,255,255,0.10)', fontSize: 13, fontWeight: 750 }}>
-                  Puntos
+                <th className="hide-mobile tbl-cell" style={{ borderBottom: '1px solid rgba(255,255,255,0.10)', fontSize: 13, fontWeight: 750 }}>
+                  Maillots
                 </th>
                 <th className="hide-mobile tbl-cell" style={{ borderBottom: '1px solid rgba(255,255,255,0.10)', fontSize: 13, fontWeight: 750 }}>
                   Logros (resumen)
+                </th>
+                <th className="tbl-cell" style={{ borderBottom: '1px solid rgba(255,255,255,0.10)', fontSize: 13, fontWeight: 750 }}>
+                  Puntos
                 </th>
               </tr>
             </thead>
@@ -124,7 +127,7 @@ export function ParticipantePage() {
                     >
                       <td className="tbl-cell" style={{ borderBottom: '1px solid rgba(255,255,255,0.08)' }}>{c.dorsal}</td>
                       <td className="tbl-cell" style={{ borderBottom: '1px solid rgba(255,255,255,0.08)' }}>
-                        <div style={{ fontWeight: 800 }}>
+                        <div style={{ fontWeight: 800, display: 'flex', alignItems: 'center' }}>
                           {c.logros.abandono ? '☠️ ' : ''}
                           <span style={{ textDecoration: c.logros.abandono ? 'line-through' : undefined }}>
                             {c.nombre}
@@ -132,13 +135,41 @@ export function ParticipantePage() {
                           <span className="show-mobile muted" style={{ marginLeft: 8, fontSize: 12 }}>
                             {isExpanded ? '▾' : '▸'}
                           </span>
+                          {c.link ? (
+                            <span className="hide-mobile">
+                              <a
+                                href={c.link}
+                                target="_blank"
+                                rel="noreferrer"
+                                onClick={(e) => e.stopPropagation()}
+                                style={{
+                                  marginLeft: 10,
+                                  display: 'inline-flex',
+                                  alignItems: 'center',
+                                  padding: '4px 10px',
+                                  borderRadius: 999,
+                                  border: '1px solid rgba(255,255,255,0.14)',
+                                  background: 'rgba(255,255,255,0.04)',
+                                  color: 'rgba(255,255,255,0.95)',
+                                  fontSize: 12.5,
+                                  fontWeight: 600,
+                                }}
+                              >
+                                Ver ficha →
+                              </a>
+                            </span>
+                          ) : null}
                         </div>
                         <div className="muted hide-mobile" style={{ fontSize: 13 }}>
                           {c.equipo}
                         </div>
-                        <div className="muted hide-mobile" style={{ fontSize: 13 }}>
-                          {c.nacionalidad}
-                        </div>
+                      </td>
+                      <td className="hide-mobile tbl-cell" style={{ borderBottom: '1px solid rgba(255,255,255,0.08)' }}>
+                        {flagEmoji ? (
+                          <span aria-label={c.nacionalidad} title={c.nacionalidad}>
+                            {flagEmoji}
+                          </span>
+                        ) : null}
                       </td>
                       <td className="hide-mobile tbl-cell" style={{ borderBottom: '1px solid rgba(255,255,255,0.08)' }}>
                         <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>
@@ -148,18 +179,18 @@ export function ParticipantePage() {
                           ))}
                         </div>
                       </td>
-                      <td className="tbl-cell" style={{ borderBottom: '1px solid rgba(255,255,255,0.08)' }}>
-                        <div style={{ fontWeight: 900 }}>{puntos}</div>
-                      </td>
                       <td className="hide-mobile tbl-cell" style={{ borderBottom: '1px solid rgba(255,255,255,0.08)' }}>
                         <div className="muted" style={{ fontSize: 13 }}>
                           {logrosResumen}
                         </div>
                       </td>
+                      <td className="tbl-cell" style={{ borderBottom: '1px solid rgba(255,255,255,0.08)' }}>
+                        <div style={{ fontWeight: 900 }}>{puntos}</div>
+                      </td>
                     </tr>
                     {isExpanded ? (
                       <tr className="mobile-detail-row is-expanded">
-                        <td className="tbl-cell" colSpan={5} style={{ borderBottom: '1px solid rgba(255,255,255,0.08)' }}>
+                        <td className="tbl-cell" colSpan={6} style={{ borderBottom: '1px solid rgba(255,255,255,0.08)' }}>
                           <div className="muted" style={{ fontSize: 13, marginBottom: 8 }}>
                             {flagEmoji ? `${flagEmoji} ` : ''}
                             {c.nacionalidad}
@@ -205,7 +236,7 @@ export function ParticipantePage() {
               })}
               {ciclistasSeleccionados.length === 0 ? (
                 <tr>
-                  <td colSpan={5} className="muted" style={{ padding: 14 }}>
+                  <td colSpan={6} className="muted" style={{ padding: 14 }}>
                     No hay ciclistas asignados.
                   </td>
                 </tr>

@@ -1,13 +1,9 @@
 Actualizar puntos premios
-farolillo rojo
 
 Crear página para forzar actualización de datos, generar resumen sistuación actual de carrera
-Al pulsar la ficha de corredor que se abra en una nueva pestaña
-
-Mostrar el logros si hay algun maillot ganado aparte de en maillots
-Mostrar en logros si etapa reina
-no mostrar en la linea de logros premios que están desactivados porque el premio asignado es cero
 
 Pasar cambios visuales del formato movil al web de escritorio
+
+
 
 

@@ -198,7 +198,7 @@ export function CiclistasPage() {
 
       <div className="card" style={{ padding: 16, marginTop: 14 }}>
         <div style={{ overflowX: 'auto' }}>
-          <table className="responsive-table" style={{ width: '100%', borderCollapse: 'collapse', minWidth: 860 }}>
+          <table className="responsive-table" style={{ width: '100%', borderCollapse: 'collapse', minWidth: 1080 }}>
             <thead>
               <tr style={{ textAlign: 'left' }}>
                 <th className="tbl-cell" style={{ borderBottom: '1px solid rgba(255,255,255,0.10)', fontSize: 13, fontWeight: 750 }}>
@@ -209,6 +209,12 @@ export function CiclistasPage() {
                 </th>
                 <th className="hide-mobile tbl-cell" style={{ borderBottom: '1px solid rgba(255,255,255,0.10)', fontSize: 13, fontWeight: 750 }}>
                   Nacionalidad
+                </th>
+                <th className="hide-mobile tbl-cell" style={{ borderBottom: '1px solid rgba(255,255,255,0.10)', fontSize: 13, fontWeight: 750 }}>
+                  Maillots
+                </th>
+                <th className="hide-mobile tbl-cell" style={{ borderBottom: '1px solid rgba(255,255,255,0.10)', fontSize: 13, fontWeight: 750 }}>
+                  Logros
                 </th>
                 <th className="tbl-cell" style={{ borderBottom: '1px solid rgba(255,255,255,0.10)', fontSize: 13, fontWeight: 750 }}>
                   Participante
@@ -230,7 +236,7 @@ export function CiclistasPage() {
               ))}
               {filtered.length === 0 ? (
                 <tr>
-                  <td colSpan={5} className="muted" style={{ padding: 14 }}>
+                  <td colSpan={7} className="muted" style={{ padding: 14 }}>
                     Sin resultados.
                   </td>
                 </tr>

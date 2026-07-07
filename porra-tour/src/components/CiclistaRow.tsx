@@ -46,7 +46,7 @@ export default function CiclistaRow({
           {ciclista.dorsal}
         </td>
         <td className="tbl-cell" style={{ borderBottom: '1px solid rgba(255,255,255,0.10)' }}>
-          <div style={{ fontWeight: 750 }}>
+          <div style={{ fontWeight: 750, display: 'flex', alignItems: 'center' }}>
             {ciclista.logros.abandono ? '☠️ ' : ''}
             <span style={{ textDecoration: ciclista.logros.abandono ? 'line-through' : undefined }}>
               {ciclista.nombre}
@@ -54,6 +54,30 @@ export default function CiclistaRow({
             <span className="show-mobile muted" style={{ marginLeft: 8, fontSize: 12 }}>
               {expanded ? '▾' : '▸'}
             </span>
+            {ciclista.link ? (
+              <span className="hide-mobile">
+                <a
+                  href={ciclista.link}
+                  target="_blank"
+                  rel="noreferrer"
+                  onClick={(e) => e.stopPropagation()}
+                  style={{
+                    marginLeft: 10,
+                    display: 'inline-flex',
+                    alignItems: 'center',
+                    padding: '4px 10px',
+                    borderRadius: 999,
+                    border: '1px solid rgba(255,255,255,0.14)',
+                    background: 'rgba(255,255,255,0.04)',
+                    color: 'rgba(255,255,255,0.95)',
+                    fontSize: 12.5,
+                    fontWeight: 600,
+                  }}
+                >
+                  Ver ficha →
+                </a>
+              </span>
+            ) : null}
           </div>
           <div className="muted hide-mobile" style={{ fontSize: 13 }}>
             {ciclista.equipo}
@@ -65,6 +89,19 @@ export default function CiclistaRow({
               {flagEmoji}
             </span>
           ) : null}
+        </td>
+        <td className="hide-mobile tbl-cell" style={{ borderBottom: '1px solid rgba(255,255,255,0.10)' }}>
+          <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>
+            {maillotKeys.length === 0 ? <span className="muted">—</span> : null}
+            {maillotKeys.map((k) => (
+              <MaillotBadge key={k} maillot={k} />
+            ))}
+          </div>
+        </td>
+        <td className="hide-mobile tbl-cell" style={{ borderBottom: '1px solid rgba(255,255,255,0.10)' }}>
+          <div className="muted" style={{ fontSize: 13 }}>
+            {logrosItems.length === 0 ? '—' : logrosItems.join(' · ')}
+          </div>
         </td>
         <td className="tbl-cell" style={{ borderBottom: '1px solid rgba(255,255,255,0.10)' }}>
           {participante ? (
@@ -94,7 +131,7 @@ export default function CiclistaRow({
       </tr>
       {expanded ? (
         <tr className="mobile-detail-row is-expanded">
-          <td className="tbl-cell" colSpan={5} style={{ borderBottom: '1px solid rgba(255,255,255,0.10)' }}>
+          <td className="tbl-cell" colSpan={7} style={{ borderBottom: '1px solid rgba(255,255,255,0.10)' }}>
             <div className="muted" style={{ fontSize: 13, marginBottom: 8 }}>
               {flagEmoji ? `${flagEmoji} ` : ''}
               {ciclista.nacionalidad}
