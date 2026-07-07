@@ -20,7 +20,6 @@ DEFAULT_LOGROS = {
     "posicion_general": None,
     "farolillo_rojo": False,
     "abandono": False,
-    "maillot_amarillo": False,
     "maillot_verde": False,
     "maillot_polka": False,
     "maillot_blanco": False,
@@ -78,8 +77,6 @@ def parse_runner_item(li: Any, team_name: str) -> dict[str, Any]:
         "equipo": team_name,
         "nacionalidad": nacionalidad,
         "link": href,
-        "participante_id": "",
-        "puntos": 0,
         "logros": DEFAULT_LOGROS.copy(),
     }
 

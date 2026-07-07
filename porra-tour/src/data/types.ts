@@ -9,7 +9,6 @@ export type Logros = {
   posicion_general: number | null;
   farolillo_rojo: boolean;
   abandono: boolean;
-  maillot_amarillo: boolean;
   maillot_verde: boolean;
   maillot_polka: boolean;
   maillot_blanco: boolean;
@@ -21,9 +20,7 @@ export type Ciclista = {
   equipo: string;
   nacionalidad: string;
   link?: string;
-  participante_id: string;
   redes_sociales?: RedesSociales;
-  puntos: number;
   logros: Logros;
 };
 

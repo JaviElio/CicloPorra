@@ -57,7 +57,7 @@ export default function MaillotBadge({ maillot }: { maillot: MaillotKey }) {
 
 export function getMaillotBadgesFromLogros(logros: Ciclista['logros']): MaillotKey[] {
   const keys: MaillotKey[] = [];
-  if (logros.maillot_amarillo) keys.push('maillot_amarillo');
+  if (logros.posicion_general === 1) keys.push('maillot_amarillo');
   if (logros.maillot_verde) keys.push('maillot_verde');
   if (logros.maillot_polka) keys.push('maillot_polka');
   if (logros.maillot_blanco) keys.push('maillot_blanco');

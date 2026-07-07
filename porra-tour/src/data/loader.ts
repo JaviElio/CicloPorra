@@ -24,8 +24,7 @@ export function loadDataModel(): DataModel {
   const participanteById = new Map<string, Participante>();
   for (const p of participantes) participanteById.set(p.id, p);
 
-  // La asignación real vive en participantes[].ciclistas_dorsales; el campo
-  // ciclista.participante_id no está poblado en los datos.
+  // La asignación real vive en participantes[].ciclistas_dorsales.
   const participanteIdByDorsal = new Map<number, string>();
   for (const p of participantes) {
     for (const dorsal of p.ciclistas_dorsales) participanteIdByDorsal.set(dorsal, p.id);

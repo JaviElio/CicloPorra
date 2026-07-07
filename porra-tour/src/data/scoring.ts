@@ -1,14 +1,5 @@
 import type { Config, Ciclista, Logros, Participante } from './types';
 
-export function getMaillotKeysFromLogros(logros: Ciclista['logros']): Array<'maillot_amarillo' | 'maillot_verde' | 'maillot_polka' | 'maillot_blanco'> {
-  const keys: Array<'maillot_amarillo' | 'maillot_verde' | 'maillot_polka' | 'maillot_blanco'> = [];
-  if (logros.maillot_amarillo) keys.push('maillot_amarillo');
-  if (logros.maillot_verde) keys.push('maillot_verde');
-  if (logros.maillot_polka) keys.push('maillot_polka');
-  if (logros.maillot_blanco) keys.push('maillot_blanco');
-  return keys;
-}
-
 export function getPuntosVictoriasEtapa(logros: Logros, config: Config): number {
   const victoriasReina = logros.etapa_reina ? 1 : 0;
   const victoriasNormales = Math.max(0, logros.victorias_etapa - victoriasReina);
@@ -33,7 +24,7 @@ export function computeCiclistaPuntos(ciclista: Ciclista, config: Config): numbe
     (logros.maillot_blanco ? p.maillot_joven : 0) +
     (logros.farolillo_rojo ? p.farolillo_rojo : 0);
 
-  return Number.isFinite(calculado) ? calculado : ciclista.puntos;
+  return Number.isFinite(calculado) ? calculado : 0;
 }
 
 export function computeParticipantePuntos(participante: Participante, ciclistas: Ciclista[], config: Config): number {
