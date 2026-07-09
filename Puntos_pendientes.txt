@@ -2,7 +2,7 @@ Actualizar puntos premios
 
 Crear página para forzar actualización de datos, generar resumen sistuación actual de carrera
 
-Pasar cambios visuales del formato movil al web de escritorio
+
 
 
 
