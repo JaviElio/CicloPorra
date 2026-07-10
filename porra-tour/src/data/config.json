@@ -8,9 +8,9 @@
     "victoria_etapa": 5,
     "victoria_etapa_reina": 5,
     "maillot_verde": 25,
-    "maillot_montana": 20,
-    "maillot_joven": 15,
-    "farolillo_rojo": 0,
+    "maillot_montana": 25,
+    "maillot_joven": 20,
+    "farolillo_rojo": 5,
     "clasificacion_general": {
       "1": 50,
       "2": 40,
@@ -22,7 +22,7 @@
       "8": 5,
       "9": 5,
       "10": 5,
-      "13": 0
+      "13": 5
     }
   }
 }
