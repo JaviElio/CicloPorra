@@ -420,7 +420,7 @@
       "farolillo_rojo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": true,
+      "maillot_blanco": false,
       "abandono": false
     }
   },
@@ -485,7 +485,7 @@
       "victorias_etapa": 0,
       "etapa_reina": false,
       "posicion_general": 9,
-      "farolillo_rojo": false,
+      "farolillo_rojo": true,
       "maillot_verde": false,
       "maillot_polka": false,
       "maillot_blanco": false,
@@ -518,7 +518,7 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "posicion_general": 10,
+      "posicion_general": null,
       "farolillo_rojo": false,
       "maillot_verde": false,
       "maillot_polka": false,
@@ -1366,7 +1366,7 @@
     "nacionalidad": "NED",
     "link": "https://www.letour.fr/es/corredor/101/alpecin-premier-tech/mathieu-van-der-poel",
     "logros": {
-      "victorias_etapa": 0,
+      "victorias_etapa": 1,
       "etapa_reina": false,
       "posicion_general": null,
       "farolillo_rojo": false,
@@ -1640,7 +1640,7 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "posicion_general": 13,
+      "posicion_general": null,
       "farolillo_rojo": false,
       "maillot_verde": false,
       "maillot_polka": false,
@@ -2627,7 +2627,7 @@
       "victorias_etapa": 0,
       "etapa_reina": false,
       "posicion_general": null,
-      "farolillo_rojo": true,
+      "farolillo_rojo": false,
       "maillot_verde": false,
       "maillot_polka": false,
       "maillot_blanco": false,
