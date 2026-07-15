@@ -1757,7 +1757,7 @@
     "nacionalidad": "NOR",
     "link": "https://www.letour.fr/es/corredor/128/uno-x-mobility/soeren-waerenskjold",
     "logros": {
-      "victorias_etapa": 0,
+      "victorias_etapa": 1,
       "etapa_reina": false,
       "posicion_general": null,
       "farolillo_rojo": false,
@@ -2359,7 +2359,7 @@
       "maillot_verde": false,
       "maillot_polka": false,
       "maillot_blanco": false,
-      "abandono": false
+      "abandono": true
     }
   },
   {
