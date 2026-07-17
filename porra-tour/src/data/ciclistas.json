@@ -25,7 +25,7 @@
     "logros": {
       "victorias_etapa": 1,
       "etapa_reina": false,
-      "posicion_general": 7,
+      "posicion_general": 8,
       "farolillo_rojo": false,
       "maillot_verde": false,
       "maillot_polka": false,
@@ -263,7 +263,7 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "posicion_general": 13,
+      "posicion_general": null,
       "farolillo_rojo": false,
       "maillot_verde": false,
       "maillot_polka": false,
@@ -348,7 +348,7 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "posicion_general": 6,
+      "posicion_general": 7,
       "farolillo_rojo": false,
       "maillot_verde": false,
       "maillot_polka": false,
@@ -416,7 +416,7 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "posicion_general": 4,
+      "posicion_general": 5,
       "farolillo_rojo": false,
       "maillot_verde": false,
       "maillot_polka": false,
@@ -484,7 +484,7 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "posicion_general": 8,
+      "posicion_general": 9,
       "farolillo_rojo": false,
       "maillot_verde": false,
       "maillot_polka": false,
@@ -688,7 +688,7 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "posicion_general": 5,
+      "posicion_general": 6,
       "farolillo_rojo": false,
       "maillot_verde": false,
       "maillot_polka": false,
@@ -960,7 +960,7 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "posicion_general": 9,
+      "posicion_general": 10,
       "farolillo_rojo": false,
       "maillot_verde": false,
       "maillot_polka": false,
@@ -1012,7 +1012,7 @@
       "victorias_etapa": 0,
       "etapa_reina": false,
       "posicion_general": null,
-      "farolillo_rojo": false,
+      "farolillo_rojo": true,
       "maillot_verde": false,
       "maillot_polka": false,
       "maillot_blanco": false,
@@ -1334,7 +1334,7 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "posicion_general": null,
+      "posicion_general": 13,
       "farolillo_rojo": false,
       "maillot_verde": false,
       "maillot_polka": false,
@@ -1621,7 +1621,7 @@
     "nacionalidad": "SUI",
     "link": "https://www.letour.fr/es/corredor/118/team-jayco-alula/mauro-schmid",
     "logros": {
-      "victorias_etapa": 0,
+      "victorias_etapa": 1,
       "etapa_reina": false,
       "posicion_general": null,
       "farolillo_rojo": false,
@@ -1845,7 +1845,7 @@
       "victorias_etapa": 0,
       "etapa_reina": false,
       "posicion_general": null,
-      "farolillo_rojo": true,
+      "farolillo_rojo": false,
       "maillot_verde": false,
       "maillot_polka": false,
       "maillot_blanco": false,
@@ -2087,7 +2087,7 @@
       "maillot_verde": false,
       "maillot_polka": false,
       "maillot_blanco": false,
-      "abandono": false
+      "abandono": true
     }
   },
   {
@@ -2320,7 +2320,7 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "posicion_general": 10,
+      "posicion_general": 4,
       "farolillo_rojo": false,
       "maillot_verde": false,
       "maillot_polka": false,
@@ -2886,7 +2886,7 @@
       "maillot_verde": false,
       "maillot_polka": false,
       "maillot_blanco": false,
-      "abandono": false
+      "abandono": true
     }
   },
   {
@@ -3005,7 +3005,7 @@
       "maillot_verde": false,
       "maillot_polka": false,
       "maillot_blanco": false,
-      "abandono": false
+      "abandono": true
     }
   },
   {
