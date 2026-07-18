@@ -10,7 +10,9 @@ export function renderLogrosSummary(logros: Logros, config: Config) {
   if (logros.victorias_etapa > 0 && getPuntosVictoriasEtapa(logros, config) > 0) {
     items.push(`Victorias etapas: ${logros.victorias_etapa}`);
   }
-  if (logros.etapa_reina && config.puntuacion.victoria_etapa_reina > 0) items.push('Etapa reina');
+  if (logros.etapa_reina && config.puntuacion.victoria_etapa_reina > 0) {
+    items.push(config.etapa_reina ? `Etapa reina (etapa ${config.etapa_reina})` : 'Etapa reina');
+  }
   if (logros.posicion_general != null && getPuntosPosicionGeneral(logros.posicion_general, config) > 0) {
     items.push(`CG: ${logros.posicion_general}º`);
   }

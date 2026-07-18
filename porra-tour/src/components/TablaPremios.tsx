@@ -9,6 +9,7 @@ type PremioRow = {
 function buildPremios(config: Config): { etapas: PremioRow[]; final: PremioRow[] } {
   const p = config.puntuacion;
   const cg = p.clasificacion_general;
+  const etapaReinaLabel = config.etapa_reina ? `Victoria etapa reina (etapa ${config.etapa_reina})` : 'Victoria etapa reina';
 
   const posiciones = Object.keys(cg)
     .map(Number)
@@ -21,7 +22,7 @@ function buildPremios(config: Config): { etapas: PremioRow[]; final: PremioRow[]
   return {
     etapas: [
       { categoria: 'Victoria de etapa', puntos: p.victoria_etapa },
-      { categoria: 'Victoria etapa reina', puntos: p.victoria_etapa_reina, nota: 'Puntúa doble' },
+      { categoria: etapaReinaLabel, puntos: p.victoria_etapa_reina, nota: 'Puntúa doble' },
     ].filter((row) => row.puntos !== 0),
     final: [
       ...posiciones,
