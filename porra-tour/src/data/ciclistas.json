@@ -6,7 +6,7 @@
     "nacionalidad": "SLO",
     "link": "https://www.letour.fr/es/corredor/1/uae-team-emirates-xrg/tadej-pogacar",
     "logros": {
-      "victorias_etapa": 3,
+      "victorias_etapa": 4,
       "etapa_reina": false,
       "posicion_general": 1,
       "farolillo_rojo": false,
@@ -25,7 +25,7 @@
     "logros": {
       "victorias_etapa": 1,
       "etapa_reina": false,
-      "posicion_general": 8,
+      "posicion_general": 7,
       "farolillo_rojo": false,
       "maillot_verde": false,
       "maillot_polka": false,
@@ -348,7 +348,7 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "posicion_general": 7,
+      "posicion_general": 6,
       "farolillo_rojo": false,
       "maillot_verde": false,
       "maillot_polka": false,
@@ -420,7 +420,7 @@
       "farolillo_rojo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": true,
+      "maillot_blanco": false,
       "abandono": false
     }
   },
@@ -484,7 +484,7 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "posicion_general": 9,
+      "posicion_general": 8,
       "farolillo_rojo": false,
       "maillot_verde": false,
       "maillot_polka": false,
@@ -555,7 +555,7 @@
       "posicion_general": null,
       "farolillo_rojo": false,
       "maillot_verde": false,
-      "maillot_polka": true,
+      "maillot_polka": false,
       "maillot_blanco": false,
       "abandono": false
     }
@@ -688,11 +688,11 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "posicion_general": 6,
+      "posicion_general": 4,
       "farolillo_rojo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": false,
+      "maillot_blanco": true,
       "abandono": false
     }
   },
@@ -1012,7 +1012,7 @@
       "victorias_etapa": 0,
       "etapa_reina": false,
       "posicion_general": null,
-      "farolillo_rojo": true,
+      "farolillo_rojo": false,
       "maillot_verde": false,
       "maillot_polka": false,
       "maillot_blanco": false,
@@ -1269,7 +1269,7 @@
       "posicion_general": null,
       "farolillo_rojo": false,
       "maillot_verde": false,
-      "maillot_polka": false,
+      "maillot_polka": true,
       "maillot_blanco": false,
       "abandono": false
     }
@@ -1390,7 +1390,7 @@
       "maillot_verde": false,
       "maillot_polka": false,
       "maillot_blanco": false,
-      "abandono": false
+      "abandono": true
     }
   },
   {
@@ -1624,7 +1624,7 @@
       "victorias_etapa": 1,
       "etapa_reina": false,
       "posicion_general": null,
-      "farolillo_rojo": false,
+      "farolillo_rojo": true,
       "maillot_verde": false,
       "maillot_polka": false,
       "maillot_blanco": false,
@@ -2320,7 +2320,7 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "posicion_general": 4,
+      "posicion_general": 9,
       "farolillo_rojo": false,
       "maillot_verde": false,
       "maillot_polka": false,
