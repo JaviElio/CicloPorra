@@ -107,8 +107,8 @@ export default function TablaPremios({ config }: { config: Config }) {
     <section className="card" style={{ padding: 16, marginTop: 20 }}>
       <h2 style={{ margin: '0 0 4px', fontSize: 18, letterSpacing: -0.2 }}>Tabla de premios</h2>
       <p className="muted" style={{ margin: '0 0 16px', fontSize: 13, lineHeight: 1.45 }}>
-        Las victorias de etapa suman puntos a medida que se disputan. Maillots, clasificación general y farolillo rojo
-        se aplican al terminar el tour.
+        Si el líder de un maillot (verde, montaña o joven) también ocupa el podio de la general (1º-3º), el premio de
+        ese maillot no se otorga y pasa al siguiente clasificado de ese maillot que no esté en el podio.
       </p>
 
       <div
@@ -122,10 +122,6 @@ export default function TablaPremios({ config }: { config: Config }) {
         <PremiosTable titulo="Al final del tour" subtitulo="Clasificación, maillots y farolillo" rows={final} />
       </div>
 
-      <p className="muted" style={{ margin: '12px 0 0', fontSize: 12.5, lineHeight: 1.45 }}>
-        Si el líder de un maillot (verde, montaña o joven) también ocupa el podio de la general (1º-3º), el premio de
-        ese maillot no se otorga y pasa al siguiente clasificado de ese maillot que no esté en el podio.
-      </p>
     </section>
   );
 }
