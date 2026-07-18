@@ -53,6 +53,29 @@ select {
   color: var(--muted);
 }
 
+.admin-page {
+  padding: 24px;
+}
+
+.admin-action-btn {
+  border: 0;
+  border-radius: 999px;
+  padding: 10px 16px;
+  background: var(--tour-yellow);
+  color: #111;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.admin-link {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 16px;
+  border: 1px solid var(--tour-card-border);
+  border-radius: 999px;
+  color: var(--text);
+}
+
 .tbl-cell {
   padding: 10px 8px;
 }

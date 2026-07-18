@@ -4,6 +4,7 @@ import { ClasificacionPage } from './pages/ClasificacionPage';
 import { ParticipantePage } from './pages/ParticipantePage';
 import { CiclistasPage } from './pages/CiclistasPage';
 import { PremiosPage } from './pages/PremiosPage';
+import { AdminPage } from './pages/AdminPage';
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
           <Route path="/participante/:id" element={<ParticipantePage />} />
           <Route path="/ciclistas" element={<CiclistasPage />} />
           <Route path="/premios" element={<PremiosPage />} />
+          <Route path="/admin" element={<AdminPage />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </main>
