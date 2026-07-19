@@ -88,19 +88,43 @@ export function CiclistasPage() {
             <div className="muted" style={{ fontSize: 13, marginBottom: 6 }}>
               Buscar (nombre / equipo / dorsal)
             </div>
-            <input
-              value={query}
-              onChange={(e) => setQuery(e.target.value)}
-              placeholder="Ej: Pogačar, Visma, 12 45…"
-              style={{
-                width: '100%',
-                padding: '10px 12px',
-                borderRadius: 12,
-                border: '1px solid rgba(255,255,255,0.14)',
-                background: 'rgba(255,255,255,0.04)',
-                color: 'rgba(255,255,255,0.95)',
-              }}
-            />
+            <div style={{ position: 'relative' }}>
+              <input
+                value={query}
+                onChange={(e) => setQuery(e.target.value)}
+                placeholder="Ej: Pogačar, Visma, 12 45…"
+                style={{
+                  width: '100%',
+                  padding: query ? '10px 36px 10px 12px' : '10px 12px',
+                  borderRadius: 12,
+                  border: '1px solid rgba(255,255,255,0.14)',
+                  background: 'rgba(255,255,255,0.04)',
+                  color: 'rgba(255,255,255,0.95)',
+                }}
+              />
+              {query ? (
+                <button
+                  type="button"
+                  onClick={() => setQuery('')}
+                  aria-label="Limpiar búsqueda"
+                  style={{
+                    position: 'absolute',
+                    right: 8,
+                    top: '50%',
+                    transform: 'translateY(-50%)',
+                    border: 0,
+                    background: 'transparent',
+                    color: 'rgba(255,255,255,0.65)',
+                    cursor: 'pointer',
+                    padding: 4,
+                    lineHeight: 1,
+                    fontSize: 18,
+                  }}
+                >
+                  ×
+                </button>
+              ) : null}
+            </div>
           </div>
 
           <div>
