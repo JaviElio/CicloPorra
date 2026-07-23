@@ -64,7 +64,7 @@
       "maillot_verde": false,
       "maillot_polka": false,
       "maillot_blanco": false,
-      "abandono": false
+      "abandono": true
     }
   },
   {
@@ -550,9 +550,9 @@
     "nacionalidad": "ECU",
     "link": "https://www.letour.fr/es/corredor/41/ef-education-easypost/richard-carapaz",
     "logros": {
-      "victorias_etapa": 0,
+      "victorias_etapa": 1,
       "etapa_reina": false,
-      "posicion_general": null,
+      "posicion_general": 10,
       "farolillo_rojo": false,
       "maillot_verde": false,
       "maillot_polka": false,
@@ -2711,7 +2711,7 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "posicion_general": 10,
+      "posicion_general": null,
       "farolillo_rojo": false,
       "maillot_verde": false,
       "maillot_polka": false,
@@ -3124,7 +3124,7 @@
       "maillot_verde": false,
       "maillot_polka": false,
       "maillot_blanco": false,
-      "abandono": false
+      "abandono": true
     }
   }
 ]
