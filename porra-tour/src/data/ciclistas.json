@@ -8,7 +8,7 @@
     "logros": {
       "victorias_etapa": 5,
       "etapa_reina": false,
-      "posicion_general": 1,
+      "posicion_general": null,
       "farolillo_rojo": false,
       "maillot_verde": false,
       "maillot_polka": false,
@@ -25,7 +25,7 @@
     "logros": {
       "victorias_etapa": 1,
       "etapa_reina": false,
-      "posicion_general": 3,
+      "posicion_general": null,
       "farolillo_rojo": false,
       "maillot_verde": false,
       "maillot_polka": false,
@@ -246,7 +246,7 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "posicion_general": 13,
+      "posicion_general": null,
       "farolillo_rojo": false,
       "maillot_verde": false,
       "maillot_polka": false,
@@ -280,7 +280,7 @@
     "logros": {
       "victorias_etapa": 2,
       "etapa_reina": false,
-      "posicion_general": 2,
+      "posicion_general": null,
       "farolillo_rojo": false,
       "maillot_verde": false,
       "maillot_polka": false,
@@ -416,7 +416,7 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "posicion_general": 7,
+      "posicion_general": null,
       "farolillo_rojo": false,
       "maillot_verde": false,
       "maillot_polka": false,
@@ -484,7 +484,7 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "posicion_general": 6,
+      "posicion_general": null,
       "farolillo_rojo": false,
       "maillot_verde": false,
       "maillot_polka": false,
@@ -552,7 +552,7 @@
     "logros": {
       "victorias_etapa": 2,
       "etapa_reina": true,
-      "posicion_general": 8,
+      "posicion_general": null,
       "farolillo_rojo": false,
       "maillot_verde": false,
       "maillot_polka": true,
@@ -688,11 +688,11 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "posicion_general": 4,
+      "posicion_general": null,
       "farolillo_rojo": false,
       "maillot_verde": false,
       "maillot_polka": false,
-      "maillot_blanco": true,
+      "maillot_blanco": false,
       "abandono": false
     }
   },
@@ -723,7 +723,7 @@
       "victorias_etapa": 0,
       "etapa_reina": false,
       "posicion_general": null,
-      "farolillo_rojo": true,
+      "farolillo_rojo": false,
       "maillot_verde": false,
       "maillot_polka": false,
       "maillot_blanco": false,
@@ -960,7 +960,7 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "posicion_general": 5,
+      "posicion_general": null,
       "farolillo_rojo": false,
       "maillot_verde": false,
       "maillot_polka": false,
@@ -2148,7 +2148,7 @@
     "nacionalidad": "FRA",
     "link": "https://www.letour.fr/es/corredor/157/lotto-intermarche/baptiste-veistroffer",
     "logros": {
-      "victorias_etapa": 0,
+      "victorias_etapa": 1,
       "etapa_reina": false,
       "posicion_general": null,
       "farolillo_rojo": false,
@@ -2320,7 +2320,7 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "posicion_general": 9,
+      "posicion_general": null,
       "farolillo_rojo": false,
       "maillot_verde": false,
       "maillot_polka": false,
@@ -2728,7 +2728,7 @@
     "logros": {
       "victorias_etapa": 0,
       "etapa_reina": false,
-      "posicion_general": 10,
+      "posicion_general": null,
       "farolillo_rojo": false,
       "maillot_verde": false,
       "maillot_polka": false,
