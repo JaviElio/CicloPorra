@@ -4,7 +4,7 @@ export function getPuntosVictoriasEtapa(logros: Logros, config: Config): number 
   const victoriasReina = logros.etapa_reina ? 1 : 0;
   const victoriasNormales = Math.max(0, logros.victorias_etapa - victoriasReina);
   const p = config.puntuacion;
-  return victoriasNormales * p.victoria_etapa + victoriasReina * p.victoria_etapa_reina;
+  return victoriasNormales * p.victoria_etapa + victoriasReina * (p.victoria_etapa + p.victoria_etapa_reina);
 }
 
 export function getPuntosPosicionGeneral(posicion: number | null, config: Config): number {
